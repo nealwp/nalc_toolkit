@@ -1,0 +1,123 @@
+#!/bin/bash
+
+. ~/toolkit/etc/tk.config
+. $ETCDIR/tk.version
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+$BINDIR/tkt clear
+
+create_val() {
+
+	echo -n "[sudo] password for $USER: "
+	read -s val
+	echo "$val" > ~/.val
+	
+}
+
+sys_checks() {
+	
+	echo ""
+	
+	echo -n " * "
+	$BINDIR/sys-cm
+	echo -n " * "
+    $BINDIR/sys-oomadb get
+	echo -n " * "    
+	$BINDIR/sys-intfc status
+	echo -n " * "
+	$BINDIR/sys-hcn
+	echo -n "   "
+	$BINDIR/sys-varlog	
+	echo ""
+}
+
+tkprint() {
+	echo "tk: $1"
+}
+
+tell_me_bye() {
+
+	echo " Exiting to $1..."
+}
+
+handle_input() {
+
+       local args=("$@")
+       local cmd=${args[0]}
+       local argstr=""
+
+       for arg; do
+               local argstr=$argstr"$arg "
+       done
+
+       if [ -f $BINDIR/$cmd ]; then
+      		$BINDIR/$argstr
+       else
+       		tkprint "Command \"$cmd\" not found!"
+       fi
+
+}
+
+write_hist() {
+
+	local now=$(date)
+	local input="$1"
+
+	echo "[$now]: $input" >> $ETCDIR/tk.history 	
+
+}
+
+main() {
+
+	export LD_LIBRARY_PATH=/opt/sybase/OCS-15_0/lib3p
+
+	host=$(echo $HOSTNAME | cut -d"." -f2)
+#	tput setaf 3	
+	local welcome_msg=(
+""
+"NALCOMIS OIMA ToolKit -- v$version"
+"-- Welcome to $host --"
+"Enter a command, or try \"cmd-list\" to see available commands."
+)
+	if ! [ $DIR == "/h/USERS/$USER/toolkit" ]; then
+		echo "ToolKit must be installed in your home directory!"
+		echo "Exiting..."
+		exit
+	fi 
+	
+	printf "%s\n" "${welcome_msg[@]}"	
+	
+	if ! [ -f ~/.val ] ; then
+		create_val
+	fi
+
+	local input=""	
+	
+	sys_checks
+	
+	while true;
+	do 
+#		tput setaf 3
+		read -e -p "[$host tk]>> " command
+		if [ "$command" != "exit" ]; then
+			write_hist "$command"		
+			handle_input $command
+		else
+			cd ~
+			tell_me_bye $host 
+			break
+		fi
+	done
+	
+	tput sgr 0
+}
+
+if [ "$#" -gt 0 ]; then
+	tput setaf 3
+	write_hist "$@"
+	handle_input "$@"
+	tput sgr 0
+else 
+	main
+fi

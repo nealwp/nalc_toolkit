@@ -1,0 +1,14 @@
+WIDTH=60
+
+strln=`printf "*%.0s" {1..60}`
+crtln=`printf "^%.0s" {1..60}`
+hshln=`printf "#%.0s" {1..60}`
+atln=`printf "@%.0s" {1..60}`
+undln=`printf '_%.0s' {1..60}`
+pipln=`printf '|%.0s' {1..60}`
+tldln=`printf '~%.0s' {1..60}`
+eqlln=`printf '=%.0s' {1..60}`
+
+dmdln=`printf '<>%.0s' {1..30}`
+sqrln=`printf '[]%.0s' {1..30}`
+curln=`printf '}{%.0s' {1..30}`

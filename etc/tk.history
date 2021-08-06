@@ -1,0 +1,1478 @@
+[Thu Mar  4 15:31:54 PST 2021]: hist
+[Thu Mar  4 15:32:11 PST 2021]: util-edit hist
+[Thu Mar  4 15:32:32 PST 2021]: hisdt
+[Thu Mar  4 15:32:33 PST 2021]: hist
+[Thu Mar  4 15:33:58 PST 2021]: help
+[Thu Mar  4 15:34:16 PST 2021]: maf 2IUOX8K
+[Thu Mar  4 15:34:41 PST 2021]: maf-epartno 2IUOX8K 1072376P-1
+[Thu Mar  4 15:35:12 PST 2021]: util-edit maf-epartno.sql
+[Thu Mar  4 15:41:37 PST 2021]: hist
+[Thu Mar  4 15:41:42 PST 2021]: maf-epartno 2IUOX8K 1072376P-1
+[Thu Mar  4 15:41:54 PST 2021]: util-edit maf-epartno.sql
+[Thu Mar  4 15:42:19 PST 2021]: maf-epartno 2IUOX8K 1072376P-1
+[Thu Mar  4 15:56:51 PST 2021]: maf-scan P9HG1UA
+[Thu Mar  4 15:58:20 PST 2021]: util-edit maf-kill
+[Thu Mar  4 15:58:32 PST 2021]: util-edit maf-kill.sql
+[Thu Mar  4 16:01:36 PST 2021]: maf-kill P9HG1UA
+[Thu Mar  4 16:02:08 PST 2021]: util-edit maf-kill.sql
+[Thu Mar  4 16:02:58 PST 2021]: tkt
+[Thu Mar  4 16:04:28 PST 2021]: util-update
+[Thu Mar  4 16:05:03 PST 2021]: goto fallon
+[Thu Mar  4 16:08:47 PST 2021]: goto lemoore
+[Thu Mar  4 16:11:13 PST 2021]: util-edit help
+[Thu Mar  4 16:13:48 PST 2021]: help
+[Thu Mar  4 16:14:03 PST 2021]: util-edit help
+[Thu Mar  4 16:14:25 PST 2021]: help
+[Thu Mar  4 16:14:54 PST 2021]: util-edit help
+[Thu Mar  4 16:15:40 PST 2021]: help
+[Thu Mar  4 16:16:24 PST 2021]: hist
+[Thu Mar  4 16:16:31 PST 2021]: util-edit help
+[Thu Mar  4 16:16:43 PST 2021]: help
+[Thu Mar  4 16:17:05 PST 2021]: util-edit help
+[Thu Mar  4 16:20:07 PST 2021]: help
+[Thu Mar  4 16:20:24 PST 2021]: util-edit help
+[Thu Mar  4 16:22:06 PST 2021]: help
+[Thu Mar  4 16:28:19 PST 2021]: util-update
+[Thu Mar  4 16:30:58 PST 2021]: hist
+[Thu Mar  4 16:35:43 PST 2021]: util-edit help
+[Thu Mar  4 16:35:55 PST 2021]: util-edit hist
+[Thu Mar  4 16:36:39 PST 2021]: hist
+[Thu Mar  4 16:36:58 PST 2021]: util-edit hist
+[Thu Mar  4 16:43:26 PST 2021]: hist
+[Thu Mar  4 16:43:32 PST 2021]: util-edit
+[Thu Mar  4 16:43:36 PST 2021]: util-edit hist
+[Thu Mar  4 16:44:03 PST 2021]: hist
+[Thu Mar  4 16:44:10 PST 2021]: util-edit hist
+[Thu Mar  4 16:44:40 PST 2021]: hist
+[Thu Mar  4 16:45:29 PST 2021]: util-edit hist
+[Thu Mar  4 16:45:51 PST 2021]: hist
+[Thu Mar  4 16:46:11 PST 2021]: util-edit hist
+[Thu Mar  4 16:46:56 PST 2021]: hist
+[Thu Mar  4 16:47:03 PST 2021]: hist -A
+[Thu Mar  4 16:48:28 PST 2021]: util-edit hist
+[Thu Mar  4 16:48:58 PST 2021]: hist
+[Thu Mar  4 16:49:05 PST 2021]: hist -A
+[Thu Mar  4 16:50:02 PST 2021]: hist
+[Thu Mar  4 16:50:25 PST 2021]: util-edit hist
+[Thu Mar  4 16:53:19 PST 2021]: hist
+[Thu Mar  4 16:55:24 PST 2021]: util-edit hist
+[Thu Mar  4 16:56:55 PST 2021]: hist
+[Thu Mar  4 16:57:01 PST 2021]: hist all
+[Thu Mar  4 16:57:37 PST 2021]: util-update
+[Fri Mar  5 12:02:47 PST 2021]: goto fallon
+[Fri Mar  5 15:39:27 PST 2021]: goto fallon
+[Sun Mar  7 17:47:10 PST 2021]: 
+[Mon Mar  8 10:39:34 PST 2021]: hist
+[Mon Mar  8 10:39:51 PST 2021]: hist all
+[Mon Mar  8 12:06:04 PST 2021]: goto fallon
+[Mon Mar  8 13:11:49 PST 2021]: util-edit help
+[Tue Mar  9 07:36:15 PST 2021]: goto mugu
+[Tue Mar  9 07:37:29 PST 2021]: niin 016611726
+[Tue Mar  9 07:41:55 PST 2021]: isql
+[Tue Mar  9 07:47:41 PST 2021]: tkt
+[Tue Mar  9 09:29:20 PST 2021]: goto nasni
+[Tue Mar  9 09:41:17 PST 2021]: util-update
+[Tue Mar  9 09:42:25 PST 2021]: goto nasni
+[Tue Mar  9 14:11:07 PST 2021]: util-edit puk-add.sql
+[Tue Mar  9 14:12:37 PST 2021]: util-edit puk-update.sql
+[Tue Mar  9 14:13:18 PST 2021]: util-update
+[Tue Mar  9 14:31:18 PST 2021]: goto fallon
+[Tue Mar  9 14:36:06 PST 2021]: goto lemoore
+[Tue Mar  9 14:39:15 PST 2021]: util-edit ddsn-fixmcn.sql
+[Tue Mar  9 14:41:38 PST 2021]: util-update
+[Tue Mar  9 14:42:07 PST 2021]: goto lemoore
+[Wed Mar 10 05:41:37 PST 2021]: 
+[Wed Mar 10 05:41:37 PST 2021]: 
+[Wed Mar 10 05:41:37 PST 2021]: 
+[Wed Mar 10 05:41:37 PST 2021]: 
+[Wed Mar 10 08:54:37 PST 2021]: goto lemoore
+[Wed Mar 10 09:36:40 PST 2021]: goto lemoore
+goto
+[Wed Mar 10 14:13:10 PST 2021]: maf P9HGTG4
+[Wed Mar 10 14:13:20 PST 2021]: maf-kickback
+[Wed Mar 10 14:13:33 PST 2021]: maf-kickback P9HGTG4
+[Wed Mar 10 14:13:35 PST 2021]: tkt
+[Wed Mar 10 14:16:02 PST 2021]: goto fallon
+[Wed Mar 10 14:25:40 PST 2021]: goto lemoore
+[Wed Mar 10 14:38:10 PST 2021]: goto fallon
+[Thu Mar 11 10:05:48 PST 2021]: goto lemoore
+[Thu Mar 11 10:08:59 PST 2021]: util-edit ddsn
+[Thu Mar 11 10:09:08 PST 2021]: util-edit ddsn.sql
+[Thu Mar 11 10:09:40 PST 2021]: util-update
+[Thu Mar 11 10:10:45 PST 2021]: goto lemoore
+[Thu Mar 11 10:57:46 PST 2021]: goto lemoore
+[Thu Mar 11 11:33:28 PST 2021]: maf P9HJ0JE
+[Thu Mar 11 11:58:27 PST 2021]: maf P9HJOJE
+[Thu Mar 11 12:16:32 PST 2021]: maf P9HGTG4
+[Thu Mar 11 12:16:56 PST 2021]: maf-kickback P9HGTG4
+[Thu Mar 11 12:17:07 PST 2021]: maf-activate P9HGTG4
+[Thu Mar 11 12:17:17 PST 2021]: maf-kickback P9HGTG4
+[Thu Mar 11 12:17:49 PST 2021]: tkt
+[Thu Mar 11 12:18:19 PST 2021]: isql
+[Thu Mar 11 12:30:28 PST 2021]: tkt
+[Thu Mar 11 12:34:06 PST 2021]: isql
+[Thu Mar 11 12:37:52 PST 2021]: help
+[Thu Mar 11 13:58:24 PST 2021]: hist
+[Thu Mar 11 13:58:39 PST 2021]: maf-deactivate P9HGTG4
+[Thu Mar 11 13:59:06 PST 2021]: util-edit execsqld
+[Thu Mar 11 13:59:49 PST 2021]: util-edit maf-deactivate
+[Thu Mar 11 14:00:09 PST 2021]: util-edit execsql
+[Thu Mar 11 14:00:18 PST 2021]: util-edit execsqld
+[Thu Mar 11 14:00:40 PST 2021]: util-edit maf-deactivate.sql
+[Thu Mar 11 14:01:12 PST 2021]: hist
+[Thu Mar 11 14:01:18 PST 2021]: maf-deactivate P9HGTG4
+[Thu Mar 11 14:02:03 PST 2021]: util-update
+[Thu Mar 11 14:05:55 PST 2021]: util-edit maf-activate
+[Thu Mar 11 14:06:48 PST 2021]: goto nasni
+[Thu Mar 11 14:14:45 PST 2021]: goto mugu
+[Thu Mar 11 14:45:22 PST 2021]: help
+[Thu Mar 11 14:47:07 PST 2021]: ddsn-fixmcn 1033GU69
+[Thu Mar 11 14:47:42 PST 2021]: isql
+[Thu Mar 11 14:49:27 PST 2021]: ddsn-fixmcn 1048GJ58
+[Thu Mar 11 14:49:30 PST 2021]: isql
+[Thu Mar 11 14:50:16 PST 2021]: tkt
+[Thu Mar 11 14:52:22 PST 2021]: goto nasni
+[Thu Mar 11 14:53:56 PST 2021]: util-edit ddsn-uncanx
+[Thu Mar 11 14:54:12 PST 2021]: util-edit ddsn-uncanx.sql
+[Thu Mar 11 14:57:51 PST 2021]: util-update
+[Thu Mar 11 15:02:23 PST 2021]: maf-scan P9HGTHM
+[Thu Mar 11 16:50:09 PST 2021]: goto lemoore
+[Thu Mar 11 16:51:43 PST 2021]: goto lemoore
+[Thu Mar 11 16:52:39 PST 2021]: goto lemoore
+[Thu Mar 11 16:53:46 PST 2021]: goto lemoore
+[Thu Mar 11 16:54:11 PST 2021]: goto lemoore
+goto
+[Fri Mar 12 07:56:28 PST 2021]: goto mugu
+[Fri Mar 12 08:40:07 PST 2021]: util-edit ddsn
+[Fri Mar 12 08:40:23 PST 2021]: util-edit ddsn-compl
+[Fri Mar 12 08:41:06 PST 2021]: util-edit ddsn-activate.sql
+[Fri Mar 12 08:44:39 PST 2021]: util-edit ddsn-activate
+[Fri Mar 12 08:45:03 PST 2021]: util-update
+[Fri Mar 12 08:56:47 PST 2021]: isql
+[Fri Mar 12 09:05:48 PST 2021]: sys-oomadb
+[Fri Mar 12 09:06:47 PST 2021]: goto mugu
+[Fri Mar 12 09:25:11 PST 2021]: util-edit ddsn-lscdttm.sql
+[Mon Mar 15 10:37:46 PDT 2021]: goto lemoore
+[Mon Mar 15 11:50:10 PDT 2021]: maf P9HH0LR
+[Mon Mar 15 11:55:59 PDT 2021]: maf P9HH0DJ
+[Mon Mar 15 11:56:27 PDT 2021]: maf P9HH0LS
+[Mon Mar 15 12:06:58 PDT 2021]: goto lemoore
+[Mon Mar 15 12:47:58 PDT 2021]: goto lemoore
+[Mon Mar 15 13:42:44 PDT 2021]: goto fallon
+[Mon Mar 15 15:08:09 PDT 2021]: tkt
+[Mon Mar 15 15:45:26 PDT 2021]: goto lemoore
+[Mon Mar 15 16:28:45 PDT 2021]: goto lemoore
+goto
+goto
+goto
+[Tue Mar 16 12:33:59 PDT 2021]: goto lemoore
+[Tue Mar 16 14:58:56 PDT 2021]: goto lemoore
+[Tue Mar 16 15:01:12 PDT 2021]: maf P9HG6U2
+[Tue Mar 16 15:01:54 PDT 2021]: isql
+[Tue Mar 16 15:02:47 PDT 2021]: tkt
+[Tue Mar 16 15:09:10 PDT 2021]: goto mugu
+[Tue Mar 16 15:47:47 PDT 2021]: goto lemoore
+goto
+[Wed Mar 17 09:26:06 PDT 2021]: maf W Preston Neal -- 03.17.2021
+[Wed Mar 17 09:26:06 PDT 2021]: Email: william.p.neal.ctr@navy.mil
+[Wed Mar 17 09:26:06 PDT 2021]: Phone: 619.556.9680
+[Wed Mar 17 09:26:06 PDT 2021]: Cell: 858.218.6342
+[Wed Mar 17 09:26:06 PDT 2021]: NIWC PACIFIC
+[Wed Mar 17 09:26:06 PDT 2021]: ====================
+[Wed Mar 17 09:26:06 PDT 2021]: 
+[Wed Mar 17 09:26:06 PDT 2021]: 
+[Wed Mar 17 09:26:06 PDT 2021]: Updated dr09 lsc to EXREP, cncl_qty to 0 for ddsn 1071BL51. Updated ds03 cur_mgmt_cd to ER for ti_ddsn 1071BL51. Updated ds02 exrp_qty to 1 for niin 010621642.
+[Wed Mar 17 09:26:06 PDT 2021]: 
+[Wed Mar 17 09:26:06 PDT 2021]: 
+[Wed Mar 17 09:26:06 PDT 2021]: ====================
+[Wed Mar 17 09:26:06 PDT 2021]: 
+[Wed Mar 17 09:26:06 PDT 2021]: General Support Request Description: Please change LSC to EXREP.
+[Wed Mar 17 09:26:06 PDT 2021]: 
+[Wed Mar 17 09:26:30 PDT 2021]: maf P9HH1T6
+[Wed Mar 17 09:27:15 PDT 2021]: maf-epartno P9HH1T6 85001119-1
+[Wed Mar 17 09:27:57 PDT 2021]: isql
+[Wed Mar 17 09:31:53 PDT 2021]: tkt
+[Wed Mar 17 09:34:27 PDT 2021]: goto fallon
+[Wed Mar 17 09:51:27 PDT 2021]: goto lemoore
+[Thu Mar 18 09:53:37 PDT 2021]: goto lemoore
+[Thu Mar 18 10:12:34 PDT 2021]: isql
+[Thu Mar 18 10:43:56 PDT 2021]: help
+[Thu Mar 18 10:44:12 PDT 2021]: ldap_rmuser
+[Thu Mar 18 10:44:31 PDT 2021]: ldap_rmuser
+[Thu Mar 18 10:46:01 PDT 2021]: hist
+[Thu Mar 18 10:46:07 PDT 2021]: ldap-rmuser
+[Thu Mar 18 10:46:52 PDT 2021]: ldap-rmuser ew2988
+[Thu Mar 18 10:47:46 PDT 2021]: util-edit ldap-rmuser
+[Thu Mar 18 10:50:17 PDT 2021]: tkt
+[Thu Mar 18 10:59:12 PDT 2021]: util-edit ddsn
+[Thu Mar 18 10:59:38 PDT 2021]: util-edit ldap-rmuser
+[Thu Mar 18 11:07:45 PDT 2021]: util-edit tkt
+[Thu Mar 18 11:12:18 PDT 2021]: tkt blank
+[Thu Mar 18 11:12:22 PDT 2021]: tkt
+[Thu Mar 18 11:12:43 PDT 2021]: util-edit tkt
+[Thu Mar 18 11:13:30 PDT 2021]: tkt
+[Thu Mar 18 11:13:34 PDT 2021]: tkt blank
+[Thu Mar 18 11:13:42 PDT 2021]: util-edit tkt
+[Thu Mar 18 11:13:56 PDT 2021]: tkt
+[Thu Mar 18 11:14:00 PDT 2021]: tkt blank
+[Thu Mar 18 11:14:30 PDT 2021]: util-edit tkt
+[Thu Mar 18 11:15:43 PDT 2021]: tkt
+[Thu Mar 18 11:15:47 PDT 2021]: tkt blank
+[Thu Mar 18 11:15:50 PDT 2021]: tkt clear
+[Thu Mar 18 11:15:51 PDT 2021]: tkt
+[Thu Mar 18 11:17:27 PDT 2021]: maf 2XY8TY9
+[Thu Mar 18 11:23:29 PDT 2021]: isql
+[Thu Mar 18 11:30:24 PDT 2021]: tkt
+[Thu Mar 18 11:38:01 PDT 2021]: goto lemoore
+[Thu Mar 18 12:10:20 PDT 2021]: util-update
+[Thu Mar 18 14:41:50 PDT 2021]: help
+[Thu Mar 18 14:43:16 PDT 2021]: goto lemoore
+[Thu Mar 18 14:43:24 PDT 2021]: help
+[Thu Mar 18 15:27:13 PDT 2021]: isaql
+[Thu Mar 18 15:27:15 PDT 2021]: isql
+[Thu Mar 18 15:31:26 PDT 2021]: goto lemoore
+[Thu Mar 18 16:02:55 PDT 2021]: goto lemoore
+[Fri Mar 19 09:33:56 PDT 2021]: goto fallon
+[Fri Mar 19 09:36:40 PDT 2021]: util-edit ddsn-uncanx.sql
+[Fri Mar 19 09:37:02 PDT 2021]: util-update
+[Fri Mar 19 09:38:03 PDT 2021]: goto fallon
+[Sat Mar 20 04:46:58 PDT 2021]: 
+goto
+goto
+goto
+goto
+goto
+[Mon Mar 22 16:22:42 PDT 2021]: jdate 031
+[Mon Mar 22 16:22:49 PDT 2021]: jdate 31
+[Mon Mar 22 16:25:08 PDT 2021]: jdate 3/11
+[Mon Mar 22 16:25:24 PDT 2021]: jdate 03/11
+[Tue Mar 23 09:45:42 PDT 2021]: isql
+goto
+goto
+goto
+goto
+[Wed Mar 24 16:40:10 PDT 2021]: maf 2F11FYY
+[Wed Mar 24 16:40:38 PDT 2021]: maf-epartno 2F11FYY 1072360G-4
+[Wed Mar 24 16:40:42 PDT 2021]: tkt
+[Wed Mar 24 16:42:50 PDT 2021]: maf P9HH38L
+[Wed Mar 24 16:42:59 PDT 2021]: maf-dm09swap P9HH38L
+[Wed Mar 24 16:43:24 PDT 2021]: tkt
+goto
+[Wed Mar 24 16:49:02 PDT 2021]: jdate
+[Wed Mar 24 16:49:06 PDT 2021]: util-update
+[Wed Mar 24 16:49:36 PDT 2021]: goto mugu
+[Wed Mar 24 16:54:56 PDT 2021]: goto lemoore
+[Wed Mar 24 17:01:06 PDT 2021]: goto fallon
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+[Thu Mar 25 05:40:49 PDT 2021]: 
+goto
+[Thu Mar 25 09:27:17 PDT 2021]: util-edit ddsn-lscdttm
+[Thu Mar 25 09:28:04 PDT 2021]: util-update
+[Thu Mar 25 09:28:53 PDT 2021]: goto lemoore
+[Thu Mar 25 09:45:05 PDT 2021]: util-update
+[Thu Mar 25 09:46:14 PDT 2021]: ll
+[Thu Mar 25 10:15:59 PDT 2021]: util-update
+[Thu Mar 25 10:17:19 PDT 2021]: goto fallon
+[Thu Mar 25 11:25:53 PDT 2021]: goto fallon
+[Thu Mar 25 11:39:02 PDT 2021]: isql
+[Thu Mar 25 11:39:57 PDT 2021]: util-edit maf-createdifm.sql
+[Thu Mar 25 11:47:02 PDT 2021]: isql
+[Thu Mar 25 11:49:05 PDT 2021]: util-edit maf-createdifm.sql
+[Thu Mar 25 12:12:22 PDT 2021]: util-edit ddsn-fixmcn.sql
+[Thu Mar 25 12:13:53 PDT 2021]: util-edit maf-createdifm.sql
+[Thu Mar 25 12:14:08 PDT 2021]: isql
+[Thu Mar 25 12:14:49 PDT 2021]: util-edit maf-createdifm.sql
+[Thu Mar 25 12:16:26 PDT 2021]: isql
+[Thu Mar 25 12:26:14 PDT 2021]: util-edit maf-createdifm.sql
+[Thu Mar 25 12:47:33 PDT 2021]: util-update
+[Thu Mar 25 12:48:10 PDT 2021]: goto fallon
+[Thu Mar 25 13:24:46 PDT 2021]: goto fallon
+[Thu Mar 25 14:07:05 PDT 2021]: util-edit maf-kickback.sql
+[Thu Mar 25 14:14:01 PDT 2021]: util-update
+[Thu Mar 25 14:15:24 PDT 2021]: ll
+[Thu Mar 25 14:15:44 PDT 2021]: util-edit maf-kickback
+[Thu Mar 25 14:16:18 PDT 2021]: util-update
+[Thu Mar 25 14:16:38 PDT 2021]: ll
+[Thu Mar 25 14:16:44 PDT 2021]: util-config
+[Thu Mar 25 14:17:06 PDT 2021]: util-edit util-config
+[Thu Mar 25 14:24:55 PDT 2021]: goto fallon
+[Thu Mar 25 15:35:02 PDT 2021]: util-update
+[Thu Mar 25 15:35:35 PDT 2021]: goto fallon
+[Thu Mar 25 15:36:35 PDT 2021]: util-edit ddsn-kill.sql
+[Thu Mar 25 15:37:19 PDT 2021]: util-update
+[Thu Mar 25 15:37:41 PDT 2021]: goto fallon
+[Thu Mar 25 15:41:52 PDT 2021]: goto nasni
+[Thu Mar 25 15:44:06 PDT 2021]: util-edit ddsn-uncanx.sql
+[Thu Mar 25 15:45:01 PDT 2021]: util-update
+[Thu Mar 25 15:46:09 PDT 2021]: goto lemoore
+[Thu Mar 25 16:05:33 PDT 2021]: help
+[Thu Mar 25 16:06:14 PDT 2021]: util-edit sys-oomadb
+[Thu Mar 25 16:07:06 PDT 2021]: util-edit sys-oomadb.sql
+[Thu Mar 25 16:14:11 PDT 2021]: util-edit sys-oomadb.sql
+[Thu Mar 25 16:15:05 PDT 2021]: util-edit ddsn.sql
+[Thu Mar 25 16:15:26 PDT 2021]: util-edit ddsn-kill.sql
+[Thu Mar 25 16:15:46 PDT 2021]: util-edit sys-oomadb.sql
+[Thu Mar 25 16:16:08 PDT 2021]: util-update
+[Thu Mar 25 17:20:43 PDT 2021]: util-edit sys-varlog
+[Fri Mar 26 09:04:32 PDT 2021]: util-update
+goto
+[Fri Mar 26 14:00:31 PDT 2021]: util-update
+[Fri Mar 26 14:01:07 PDT 2021]: ddsn 1069G690
+[Fri Mar 26 14:01:31 PDT 2021]: maf P669690
+[Fri Mar 26 14:01:38 PDT 2021]: maf P9HH0RY
+[Fri Mar 26 14:02:43 PDT 2021]: isql
+[Fri Mar 26 14:05:02 PDT 2021]: tkt
+[Fri Mar 26 14:07:39 PDT 2021]: maf 2MT2I4U
+[Fri Mar 26 14:08:27 PDT 2021]: maf-epartno 2MT2I4U SLZ7355-1
+[Fri Mar 26 14:08:41 PDT 2021]: tkt
+[Mon Mar 29 15:03:53 PDT 2021]: maf-scan 2XY8TY9
+[Mon Mar 29 15:06:45 PDT 2021]: isql
+[Mon Mar 29 15:13:08 PDT 2021]: goto nasni
+[Mon Mar 29 15:48:23 PDT 2021]: util-edit ddsn-kill.sql
+[Mon Mar 29 15:48:47 PDT 2021]: util-edit ddsn-status.sql
+[Mon Mar 29 15:51:02 PDT 2021]: util-update
+[Mon Mar 29 15:52:23 PDT 2021]: goto nasni
+[Mon Mar 29 15:57:09 PDT 2021]: goto fallon
+[Tue Mar 30 09:10:27 PDT 2021]: goto nasni
+[Tue Mar 30 09:14:03 PDT 2021]: tkt
+[Tue Mar 30 09:14:11 PDT 2021]: goto lemoore
+[Tue Mar 30 09:20:35 PDT 2021]: util-edit maf-bunofix
+[Tue Mar 30 09:21:01 PDT 2021]: util-update
+[Tue Mar 30 09:23:00 PDT 2021]: goto lemoore
+[Tue Mar 30 09:29:36 PDT 2021]: goto lemoore
+[Tue Mar 30 09:33:47 PDT 2021]: util-edit util-config
+[Tue Mar 30 09:40:07 PDT 2021]: util-edit util-config
+[Tue Mar 30 09:45:09 PDT 2021]: util-config
+[Tue Mar 30 09:45:24 PDT 2021]: util-edit util-cofig
+[Tue Mar 30 09:45:32 PDT 2021]: util-edit util-config
+[Tue Mar 30 09:46:01 PDT 2021]: util-config
+[Tue Mar 30 09:47:48 PDT 2021]: util-edit util-config
+[Tue Mar 30 09:56:01 PDT 2021]: util-config
+[Tue Mar 30 09:56:29 PDT 2021]: util-edit util-config
+[Tue Mar 30 10:03:39 PDT 2021]: goto lemoore
+[Tue Mar 30 10:12:00 PDT 2021]: ll
+[Tue Mar 30 10:12:02 PDT 2021]: lslslksjdfj
+[Tue Mar 30 10:13:10 PDT 2021]: goto lemoore
+[Tue Mar 30 10:35:33 PDT 2021]: goto fallon
+[Tue Mar 30 13:40:11 PDT 2021]: isql
+[Tue Mar 30 13:44:48 PDT 2021]: goto fallon
+goto
+[Wed Mar 31 10:01:02 PDT 2021]: ddsn 1089GR47
+[Wed Mar 31 10:01:44 PDT 2021]: util-edit ddsn
+[Wed Mar 31 10:01:54 PDT 2021]: util-edit ddsn.sql
+[Wed Mar 31 10:04:18 PDT 2021]: ddsn 1089GR47
+[Wed Mar 31 10:04:31 PDT 2021]: util-edit ddsn-status.sql
+[Wed Mar 31 10:04:49 PDT 2021]: util-edit ddsn.sql
+[Wed Mar 31 10:05:31 PDT 2021]: ddsn 1089GR47
+[Wed Mar 31 10:05:55 PDT 2021]: util-edit ddsn.sql
+[Wed Mar 31 10:07:41 PDT 2021]: ddsn 1089GR47
+[Wed Mar 31 10:08:41 PDT 2021]: maf 2F11G8V
+[Wed Mar 31 10:09:29 PDT 2021]: maf-fixbuno 1089GR47
+[Wed Mar 31 10:09:38 PDT 2021]: maf-bunofix 1089GR47
+[Wed Mar 31 10:09:40 PDT 2021]: tkt
+[Wed Mar 31 10:10:04 PDT 2021]: ddsn 1089GR47
+[Wed Mar 31 10:17:49 PDT 2021]: util-edit ddsn-uncanx.sql
+[Wed Mar 31 10:32:40 PDT 2021]: isql
+[Wed Mar 31 10:34:07 PDT 2021]: goto lemoore
+[Wed Mar 31 10:36:36 PDT 2021]: util-edit ddsn.sql
+[Wed Mar 31 10:37:50 PDT 2021]: util-update
+[Wed Mar 31 10:47:44 PDT 2021]: goto lemoore
+[Wed Mar 31 10:48:41 PDT 2021]: util-edit ddsn.sql
+[Wed Mar 31 10:49:02 PDT 2021]: util-update
+[Wed Mar 31 10:49:38 PDT 2021]: goto lemoore
+[Wed Mar 31 10:50:13 PDT 2021]: util-edit ddsn.sql
+[Wed Mar 31 10:51:23 PDT 2021]: util-update
+[Wed Mar 31 10:51:40 PDT 2021]: goto lemoore
+[Wed Mar 31 10:52:56 PDT 2021]: util-edit ddsn.sql
+[Wed Mar 31 10:53:24 PDT 2021]: util-update
+goto
+[Wed Mar 31 15:40:03 PDT 2021]: maf 2HJYX30
+[Wed Mar 31 15:41:10 PDT 2021]: maf 2HJYX03
+[Wed Mar 31 15:43:08 PDT 2021]: goto lemoore
+[Wed Mar 31 15:43:56 PDT 2021]: maf 2HJYX3O
+[Wed Mar 31 15:57:58 PDT 2021]: maf-epartno
+[Wed Mar 31 15:58:27 PDT 2021]: maf-epartno 2HJYX3O 96250-13100-042
+[Wed Mar 31 16:01:37 PDT 2021]: util-edit maf-epartno.sql
+[Wed Mar 31 16:04:56 PDT 2021]: goto nasni
+[Wed Mar 31 16:06:06 PDT 2021]: goto mugu
+[Wed Mar 31 16:12:53 PDT 2021]: util-edit goto
+[Wed Mar 31 16:15:03 PDT 2021]: goto fallon
+[Wed Mar 31 16:15:17 PDT 2021]: util-edit goto
+[Wed Mar 31 16:15:48 PDT 2021]: goto fallon
+[Wed Mar 31 16:16:51 PDT 2021]: util-edit goto
+[Wed Mar 31 16:17:10 PDT 2021]: goto fallon
+[Wed Mar 31 16:17:38 PDT 2021]: util-edit goto
+[Wed Mar 31 16:19:49 PDT 2021]: util-update
+[Wed Mar 31 16:23:53 PDT 2021]: goto fallon
+[Wed Mar 31 16:52:35 PDT 2021]: goto lemoore
+[Wed Mar 31 17:14:38 PDT 2021]: util-edit goto
+[Wed Mar 31 17:25:32 PDT 2021]: util-config
+[Wed Mar 31 17:28:51 PDT 2021]: util-edit tk.config
+[Wed Mar 31 17:33:51 PDT 2021]: hist
+[Wed Mar 31 17:34:12 PDT 2021]: hist all
+[Wed Mar 31 17:34:36 PDT 2021]: util-edit hist
+[Wed Mar 31 17:36:11 PDT 2021]: hist
+[Wed Mar 31 17:46:48 PDT 2021]: help
+[Wed Mar 31 17:47:27 PDT 2021]: cmd
+[Wed Mar 31 17:47:29 PDT 2021]: list
+[Wed Mar 31 17:47:34 PDT 2021]: cmdlist
+[Wed Mar 31 18:07:52 PDT 2021]: cmdlist
+[Thu Apr  1 10:53:51 PDT 2021]: cmdlist
+[Thu Apr  1 10:56:47 PDT 2021]: cmd-list
+[Thu Apr  1 10:59:37 PDT 2021]: cmd-edit isql
+[Thu Apr  1 11:00:56 PDT 2021]: cmd-edit execsqld
+[Thu Apr  1 11:02:27 PDT 2021]: execsqld "select * from da01_organization go"
+[Thu Apr  1 11:02:30 PDT 2021]: tkt
+[Thu Apr  1 11:02:52 PDT 2021]: cmd-edit execsql
+[Fri Apr  2 11:07:12 PDT 2021]: cmd-edit oomadb.sql
+[Fri Apr  2 11:07:33 PDT 2021]: cmd-edit sys-oomadb.sql
+[Fri Apr  2 11:08:21 PDT 2021]: cmd-edit sys-oomadb
+[Fri Apr  2 11:10:50 PDT 2021]: util-update
+[Fri Apr  2 11:12:04 PDT 2021]: goto lemoore
+[Fri Apr  2 11:15:40 PDT 2021]: sys-oomadb
+[Fri Apr  2 11:16:02 PDT 2021]: cmd-edit sys-oomadb
+[Fri Apr  2 11:18:30 PDT 2021]: sys-oomadb
+[Fri Apr  2 11:19:15 PDT 2021]: goto fallon
+[Fri Apr  2 11:21:02 PDT 2021]: cmd-edit sys-oomadb
+[Fri Apr  2 11:21:22 PDT 2021]: util-update
+[Fri Apr  2 11:21:57 PDT 2021]: goto fallon
+[Fri Apr  2 11:29:39 PDT 2021]: goto mugu
+[Fri Apr  2 11:34:30 PDT 2021]: maf 2HJYX30
+[Fri Apr  2 11:34:41 PDT 2021]: maf 2HJYX3O
+[Fri Apr  2 11:35:10 PDT 2021]: isql
+[Fri Apr  2 11:37:10 PDT 2021]: tkt
+[Mon Apr  5 12:33:04 PDT 2021]: goto fallon
+[Mon Apr  5 12:47:27 PDT 2021]: goto mugu~
+[Mon Apr  5 12:59:26 PDT 2021]: goto
+[Mon Apr  5 13:24:15 PDT 2021]: goto
+[Mon Apr  5 13:57:13 PDT 2021]: goto
+[Wed Apr  7 14:35:10 PDT 2021]: maf P9HH4WF
+[Wed Apr  7 15:26:04 PDT 2021]: maf-dm09swap P9HH4WF
+[Wed Apr  7 15:26:16 PDT 2021]: tkt
+[Wed Apr  7 15:40:27 PDT 2021]: cmd-list
+[Wed Apr  7 15:40:38 PDT 2021]: puk
+[Wed Apr  7 15:40:53 PDT 2021]: puk LSASG2 014793608
+[Wed Apr  7 15:45:04 PDT 2021]: niin 014793608
+[Wed Apr  7 15:46:16 PDT 2021]: cmd-list
+[Wed Apr  7 15:46:43 PDT 2021]: cmd-edit niin-dbag75.sql
+[Wed Apr  7 16:09:32 PDT 2021]: puk-update
+[Wed Apr  7 16:10:48 PDT 2021]: puk-update 014793608 LSASG2 0
+[Wed Apr  7 16:16:46 PDT 2021]: tkt
+[Wed Apr  7 16:19:31 PDT 2021]: niin-dbag75 014793608
+[Wed Apr  7 16:20:21 PDT 2021]: isql
+[Wed Apr  7 16:33:24 PDT 2021]: goto mugu
+[Thu Apr  8 14:10:16 PDT 2021]: goto mugu~
+[Thu Apr  8 15:04:46 PDT 2021]: goto lemoore
+[Thu Apr  8 15:36:29 PDT 2021]: goto mugu
+[Thu Apr  8 16:04:00 PDT 2021]: goto fallon
+[Thu Apr  8 16:18:07 PDT 2021]: goto lemoore
+[Thu Apr  8 16:20:18 PDT 2021]: goto lemoore
+[Thu Apr  8 16:20:53 PDT 2021]: goto mugu
+[Thu Apr  8 16:32:00 PDT 2021]: cmd-edit goto
+[Thu Apr  8 16:34:17 PDT 2021]: util-update
+[Thu Apr  8 16:34:52 PDT 2021]: goto fallon~
+[Thu Apr  8 22:48:42 PDT 2021]: help
+[Thu Apr  8 22:49:06 PDT 2021]: cmd-edit help
+[Thu Apr  8 22:49:58 PDT 2021]: help
+[Thu Apr  8 22:50:04 PDT 2021]: cmd-list
+[Thu Apr  8 22:51:49 PDT 2021]: sys-varlog
+[Thu Apr  8 22:52:16 PDT 2021]: tkt
+[Thu Apr  8 22:52:23 PDT 2021]: sys-oomadb
+[Thu Apr  8 22:54:29 PDT 2021]: db-tables dr
+[Thu Apr  8 22:54:51 PDT 2021]: db_tables maf
+[Thu Apr  8 22:55:13 PDT 2021]: db-tables maf
+[Fri Apr  9 09:13:08 PDT 2021]: util-update
+[Fri Apr  9 09:17:48 PDT 2021]: goto mugu
+[Fri Apr  9 09:18:50 PDT 2021]: cmd-edit ddsn-createiou.sql
+[Fri Apr  9 09:19:15 PDT 2021]: goto mugu
+[Fri Apr  9 09:21:16 PDT 2021]: util-update
+[Fri Apr  9 09:21:53 PDT 2021]: goto mugu
+[Fri Apr  9 09:22:34 PDT 2021]: cmd-edit ddsn-createiou.sql
+[Fri Apr  9 09:24:56 PDT 2021]: util-update
+[Fri Apr  9 09:26:27 PDT 2021]: goto mugu
+[Fri Apr  9 09:41:47 PDT 2021]: cmd-list
+[Fri Apr  9 09:49:49 PDT 2021]: isql
+[Fri Apr  9 10:32:13 PDT 2021]: cmd-list
+[Fri Apr  9 10:32:19 PDT 2021]: util-xfertemp
+[Fri Apr  9 10:32:32 PDT 2021]: util-xfertemp dr09insert.sql
+[Fri Apr  9 11:56:50 PDT 2021]: isql
+[Fri Apr  9 12:45:06 PDT 2021]: ddsn 9999999
+[Fri Apr  9 12:46:00 PDT 2021]: cmd-edit ddsn.sql
+[Fri Apr  9 12:46:22 PDT 2021]: util-update
+[Fri Apr  9 12:50:06 PDT 2021]: goto lemoore
+[Sat Apr 10 03:35:12 PDT 2021]: 
+[Sat Apr 10 03:35:12 PDT 2021]: 
+[Sat Apr 10 03:35:12 PDT 2021]: 
+[Sat Apr 10 03:35:12 PDT 2021]: 
+[Sat Apr 10 03:35:12 PDT 2021]: 
+[Sat Apr 10 03:35:12 PDT 2021]: 
+[Mon Apr 12 12:14:21 PDT 2021]: goto lemoore
+[Mon Apr 12 12:14:42 PDT 2021]: goto lemoore~
+[Mon Apr 12 12:43:06 PDT 2021]: goto fallon
+[Mon Apr 12 13:51:04 PDT 2021]: goto fallon~
+[Mon Apr 12 14:06:23 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:14:49 PDT 2021]: cmd-list
+[Mon Apr 12 14:14:54 PDT 2021]: hist
+[Mon Apr 12 14:14:59 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:23:04 PDT 2021]: cmd-edit xfer-temp
+[Mon Apr 12 14:23:19 PDT 2021]: cmd-edit util-xfertemp
+[Mon Apr 12 14:25:20 PDT 2021]: util-xfertemp
+[Mon Apr 12 14:25:58 PDT 2021]: cmd-edit util-xfertemp
+[Mon Apr 12 14:27:01 PDT 2021]: util-xfertemp
+[Mon Apr 12 14:27:24 PDT 2021]: cmd-edit xfer-temp
+[Mon Apr 12 14:27:37 PDT 2021]: cmd-edit util-xfertemp
+[Mon Apr 12 14:27:57 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:29:44 PDT 2021]: util-xfertemp
+[Mon Apr 12 14:30:19 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:31:11 PDT 2021]: util-xfertemp
+[Mon Apr 12 14:31:26 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:31:55 PDT 2021]: util-xfertemp
+[Mon Apr 12 14:32:05 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:32:41 PDT 2021]: help
+[Mon Apr 12 14:32:53 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:33:06 PDT 2021]: help
+[Mon Apr 12 14:33:21 PDT 2021]: util-xfertemp list
+[Mon Apr 12 14:35:04 PDT 2021]: help util-xfertemp
+[Mon Apr 12 14:35:29 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:38:12 PDT 2021]: help
+[Mon Apr 12 14:38:42 PDT 2021]: cmd-edit help
+[Mon Apr 12 14:39:08 PDT 2021]: sys-oomadb
+[Mon Apr 12 14:39:41 PDT 2021]: cmd-edit sys-oomadb
+[Mon Apr 12 14:40:37 PDT 2021]: sys-oomadb
+[Mon Apr 12 14:44:45 PDT 2021]: cmd-edit sys-oomadb
+[Mon Apr 12 14:48:15 PDT 2021]: sys-oomadb
+[Mon Apr 12 14:49:10 PDT 2021]: cmd-edit
+[Mon Apr 12 14:49:34 PDT 2021]: cmd-edit
+[Mon Apr 12 14:50:22 PDT 2021]: sys-oomadb
+[Mon Apr 12 14:50:35 PDT 2021]: cmd-list
+[Mon Apr 12 14:51:15 PDT 2021]: help
+[Mon Apr 12 14:51:25 PDT 2021]: help help
+[Mon Apr 12 14:51:40 PDT 2021]: help ls
+[Mon Apr 12 14:52:05 PDT 2021]: help vim
+[Mon Apr 12 14:53:10 PDT 2021]: cmd-edit help
+[Mon Apr 12 15:00:37 PDT 2021]: cmd-edit util-xfertemp
+[Mon Apr 12 15:01:13 PDT 2021]: cmd-edit help
+[Mon Apr 12 15:01:56 PDT 2021]: cmd-edit util-xfertemp
+[Mon Apr 12 15:02:35 PDT 2021]: util-xfertemp
+[Mon Apr 12 15:14:32 PDT 2021]: cmd-edit help
+[Mon Apr 12 15:16:49 PDT 2021]: util-update
+[Mon Apr 12 15:18:13 PDT 2021]: goto fallon
+[Mon Apr 12 15:19:41 PDT 2021]: tk
+[Mon Apr 12 15:20:02 PDT 2021]: goto fallon
+[Mon Apr 12 15:54:12 PDT 2021]: isql
+[Mon Apr 12 16:26:20 PDT 2021]: cmd-list
+[Mon Apr 12 16:28:29 PDT 2021]: isql
+[Mon Apr 12 16:48:06 PDT 2021]: cmd-list
+[Mon Apr 12 16:48:15 PDT 2021]: db-transledg
+[Mon Apr 12 16:48:38 PDT 2021]: db-transledg niin 016298083
+[Mon Apr 12 16:49:19 PDT 2021]: cmd-edit dn-transledg.sql
+[Mon Apr 12 16:49:29 PDT 2021]: cmd-edit db-transledg.sql
+[Mon Apr 12 16:49:52 PDT 2021]: db-transledg niin 016298083
+[Mon Apr 12 16:50:12 PDT 2021]: cmd-edit db-transledg
+[Mon Apr 12 16:50:21 PDT 2021]: cmd-edit db-transledg,sql
+[Mon Apr 12 16:50:25 PDT 2021]: cmd-edit db-transledg.sql
+[Mon Apr 12 16:50:41 PDT 2021]: db-transledg niin 016298083
+[Mon Apr 12 16:51:11 PDT 2021]: db-transledg ddsn 1022001D
+[Mon Apr 12 16:53:04 PDT 2021]: util-update
+[Mon Apr 12 17:00:29 PDT 2021]: tkt
+[Tue Apr 13 09:20:42 PDT 2021]: help
+[Tue Apr 13 09:20:53 PDT 2021]: help ls
+[Tue Apr 13 09:21:02 PDT 2021]: help cd ..
+[Tue Apr 13 09:21:08 PDT 2021]: help pwd
+[Tue Apr 13 09:22:20 PDT 2021]: ll
+[Tue Apr 13 10:07:55 PDT 2021]: isql
+[Tue Apr 13 10:09:44 PDT 2021]: util-xfertemp list
+[Tue Apr 13 10:09:57 PDT 2021]: util-xfertemp prde_mailbox.sql
+[Tue Apr 13 10:15:39 PDT 2021]: isql
+[Tue Apr 13 13:16:27 PDT 2021]: isql
+[Wed Apr 14 09:59:54 PDT 2021]: isql
+[Wed Apr 14 12:45:31 PDT 2021]: goto fallon
+[Wed Apr 14 13:03:49 PDT 2021]: maf P9HH5V6
+[Wed Apr 14 13:04:14 PDT 2021]: maf-fixinit P9HH5V6
+[Wed Apr 14 13:05:14 PDT 2021]: tkt
+[Wed Apr 14 13:06:05 PDT 2021]: cmd-edit maf-fixinit
+[Wed Apr 14 13:06:30 PDT 2021]: util-update
+[Wed Apr 14 13:08:54 PDT 2021]: goto lemoore
+[Wed Apr 14 13:09:19 PDT 2021]: goto mugu
+[Wed Apr 14 13:10:17 PDT 2021]: goto mugu
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 05:35:20 PDT 2021]: 
+[Thu Apr 15 10:44:00 PDT 2021]: goto lemoore
+[Thu Apr 15 11:08:20 PDT 2021]: isql
+[Thu Apr 15 11:13:06 PDT 2021]: goto lemoore
+[Thu Apr 15 16:00:11 PDT 2021]: isql
+[Thu Apr 15 16:02:22 PDT 2021]: goto lemoore
+[Thu Apr 15 16:13:13 PDT 2021]: isql
+[Thu Apr 15 16:31:07 PDT 2021]: db-purgeintfc
+[Thu Apr 15 16:31:18 PDT 2021]: db-purgeintfc report
+[Thu Apr 15 16:31:33 PDT 2021]: cmd-edit db-purgeintfc.sql
+[Thu Apr 15 16:32:11 PDT 2021]: db-purgeintfc report
+[Thu Apr 15 16:32:24 PDT 2021]: cmd-edit db-purgeintfc.sql
+[Thu Apr 15 16:33:39 PDT 2021]: db-purgeintfc report
+[Thu Apr 15 16:34:05 PDT 2021]: cmd-edit db-purgeintfc.sql
+[Thu Apr 15 16:35:33 PDT 2021]: else
+[Thu Apr 15 16:35:33 PDT 2021]: begin
+[Thu Apr 15 16:35:33 PDT 2021]: print "Invalid argument!"
+[Thu Apr 15 16:35:33 PDT 2021]: print "Options:"
+[Thu Apr 15 16:35:33 PDT 2021]: print "   db-purgeinterface report"
+[Thu Apr 15 16:35:33 PDT 2021]: print "   db-purgeinterface fix"
+[Thu Apr 15 16:35:33 PDT 2021]: goto done
+[Thu Apr 15 16:35:33 PDT 2021]: end
+[Thu Apr 15 16:35:48 PDT 2021]: db-purgeintfc report
+[Thu Apr 15 16:36:07 PDT 2021]: cmd-edit db-purgeintfc
+[Thu Apr 15 16:36:26 PDT 2021]: cmd-edit db-purgeintfc.sql
+[Thu Apr 15 16:38:06 PDT 2021]: db-purgeintfc report
+[Thu Apr 15 16:38:14 PDT 2021]: db-purgeintfc fix
+[Thu Apr 15 16:38:30 PDT 2021]: cmd-edit db-purgeintfc.sql
+[Thu Apr 15 16:39:19 PDT 2021]: db-purgeintfc fix
+[Thu Apr 15 16:39:46 PDT 2021]: cmd-edit db-purgeintfc.sql
+[Thu Apr 15 16:40:56 PDT 2021]: db-purgeintfc
+[Thu Apr 15 16:42:22 PDT 2021]: db-purgeintfc report
+[Thu Apr 15 16:45:00 PDT 2021]: db-purgeintfc fix
+[Fri Apr 16 10:39:42 PDT 2021]: maf P9HH16Z
+[Fri Apr 16 10:40:21 PDT 2021]: maf-epartno P9HH16Z 74A733063-1003
+[Fri Apr 16 10:44:54 PDT 2021]: isql
+[Fri Apr 16 10:45:43 PDT 2021]: niin 014855868
+[Fri Apr 16 10:46:56 PDT 2021]: isql
+[Fri Apr 16 10:47:22 PDT 2021]: niin 011257612
+[Fri Apr 16 10:53:27 PDT 2021]: ddsn P9HH73P
+[Fri Apr 16 10:53:41 PDT 2021]: ddsn 1096BA03
+[Fri Apr 16 10:53:53 PDT 2021]: ddsn-fixmcn 1096BA03
+[Fri Apr 16 10:54:09 PDT 2021]: cmd-list
+[Fri Apr 16 10:54:37 PDT 2021]: maf-createdifm P9HH73P
+[Fri Apr 16 10:54:41 PDT 2021]: tkt
+[Fri Apr 16 10:57:17 PDT 2021]: maf P9HH73P
+[Fri Apr 16 10:58:25 PDT 2021]: isql
+[Fri Apr 16 11:03:57 PDT 2021]: hist
+[Fri Apr 16 11:04:06 PDT 2021]: maf-createdifm P9HH73P
+[Fri Apr 16 11:04:08 PDT 2021]: tkt
+[Fri Apr 16 11:05:17 PDT 2021]: ddsn-fixmcn 1096BA03
+[Fri Apr 16 11:07:16 PDT 2021]: ddsn 1104GW02
+[Fri Apr 16 11:07:44 PDT 2021]: maf 1CV75NH
+[Fri Apr 16 11:08:00 PDT 2021]: isql
+[Fri Apr 16 11:09:18 PDT 2021]: tkt
+[Fri Apr 16 11:11:36 PDT 2021]: goto fallon
+[Fri Apr 16 11:15:57 PDT 2021]: goto lemoore
+[Fri Apr 16 11:21:11 PDT 2021]: goto lemoore~
+[Fri Apr 16 15:15:28 PDT 2021]: goto lemoore~
+[Tue Apr 20 13:52:50 PDT 2021]: goto
+[Tue Apr 20 14:01:33 PDT 2021]: goto
+[Tue Apr 20 15:15:11 PDT 2021]: isql
+[Tue Apr 20 15:15:23 PDT 2021]: cmd-edit isql
+[Tue Apr 20 15:15:38 PDT 2021]: isql
+[Tue Apr 20 15:16:12 PDT 2021]: isql
+[Tue Apr 20 15:16:18 PDT 2021]: isql -f
+[Tue Apr 20 15:16:41 PDT 2021]: cmd-edit
+[Tue Apr 20 15:16:47 PDT 2021]: cmd-edit isql
+[Tue Apr 20 15:17:41 PDT 2021]: isql
+[Tue Apr 20 15:17:45 PDT 2021]: isql -f
+[Tue Apr 20 15:17:57 PDT 2021]: cmd-edit isql
+[Tue Apr 20 15:18:50 PDT 2021]: isql -f ~/toolkit/procs/prna_rt_incoming_intfc_as_au_V2.sql
+[Tue Apr 20 15:23:27 PDT 2021]: cmd-edit isql
+[Tue Apr 20 15:26:30 PDT 2021]: isql -f ~/toolkit/procs/prna_rt_incoming_intfc_as_au_V2.sql
+[Tue Apr 20 15:27:00 PDT 2021]: cmd-edit isql
+[Tue Apr 20 15:27:44 PDT 2021]: help pwd
+[Tue Apr 20 15:28:20 PDT 2021]: isql -f /h/USERS/wneal-admin/toolkit/procs/prna_rt_incoming_intfc_as_au_V2.sql
+[Tue Apr 20 15:28:40 PDT 2021]: cmd-edit isql
+[Tue Apr 20 15:32:02 PDT 2021]: isql -f /h/USERS/wneal-admin/test-sql.sql
+[Tue Apr 20 15:44:03 PDT 2021]: isql -f ~/test-sql.sql
+[Tue Apr 20 15:44:44 PDT 2021]: echo
+[Tue Apr 20 15:51:12 PDT 2021]: help cat ~
+[Tue Apr 20 15:52:47 PDT 2021]: util-update
+[Tue Apr 20 16:40:17 PDT 2021]: goto lemoore
+[Tue Apr 20 16:41:49 PDT 2021]: util-update
+[Tue Apr 20 16:42:31 PDT 2021]: goto lemoore
+[Tue Apr 20 16:44:34 PDT 2021]: goto lemoore
+[Tue Apr 20 16:59:16 PDT 2021]: goto fallon
+[Tue Apr 20 17:06:45 PDT 2021]: goto nasni
+[Tue Apr 20 17:08:53 PDT 2021]: goto nasni
+[Tue Apr 20 17:14:18 PDT 2021]: cmd-list
+[Tue Apr 20 17:15:32 PDT 2021]: ddsn 1098GV83
+[Tue Apr 20 17:15:51 PDT 2021]: ddsn 1063AS78
+[Tue Apr 20 17:16:02 PDT 2021]: isql
+[Tue Apr 20 17:38:27 PDT 2021]: tkt
+[Tue Apr 20 17:43:51 PDT 2021]: maf P9HH8KZ
+[Tue Apr 20 17:44:07 PDT 2021]: tkt clear
+[Tue Apr 20 17:44:23 PDT 2021]: maf-dm09swap P9HH8KZ
+[Tue Apr 20 17:44:32 PDT 2021]: maf P9HH8L5
+[Tue Apr 20 17:44:43 PDT 2021]: maf-dm09swap P9HH8L5
+[Tue Apr 20 17:45:24 PDT 2021]: tkt
+[Tue Apr 20 17:45:47 PDT 2021]: cmd-edit maf-dm09swap
+[Tue Apr 20 17:50:58 PDT 2021]: maf 1CV7FUE
+[Tue Apr 20 17:51:28 PDT 2021]: maf 334ULKC
+[Tue Apr 20 17:51:41 PDT 2021]: maf 334UMJB
+[Tue Apr 20 17:51:59 PDT 2021]: tkt clear
+[Tue Apr 20 17:52:12 PDT 2021]: maf-kickback 334UMJB
+[Tue Apr 20 17:52:21 PDT 2021]: maf-kickback 334ULKC
+[Tue Apr 20 17:52:33 PDT 2021]: maf-kickback 1CV7FUE
+[Tue Apr 20 17:52:34 PDT 2021]: tkt
+[Tue Apr 20 17:57:29 PDT 2021]: 
+[Tue Apr 20 17:57:29 PDT 2021]: 
+[Tue Apr 20 17:57:29 PDT 2021]: 
+[Tue Apr 20 17:57:29 PDT 2021]: 
+[Tue Apr 20 17:58:06 PDT 2021]: isql
+[Tue Apr 20 18:05:12 PDT 2021]: goto lemoore
+[Tue Apr 20 18:07:32 PDT 2021]: goto fallon
+[Wed Apr 21 08:53:39 PDT 2021]: maf TRX1390
+[Wed Apr 21 08:53:53 PDT 2021]: maf-fixinit TRX1390
+[Wed Apr 21 08:53:55 PDT 2021]: tkt
+[Wed Apr 21 08:54:27 PDT 2021]: isql
+[Wed Apr 21 08:56:00 PDT 2021]: maf-fixinit TRX1390
+[Wed Apr 21 08:56:01 PDT 2021]: tkt
+[Wed Apr 21 09:06:16 PDT 2021]: maf W Preston Neal -- 04.21.2021
+[Wed Apr 21 09:06:16 PDT 2021]: Email: william.p.neal.ctr@navy.mil
+[Wed Apr 21 09:06:16 PDT 2021]: Phone: 619.556.9680
+[Wed Apr 21 09:06:16 PDT 2021]: Cell: 858.218.6342
+[Wed Apr 21 09:06:16 PDT 2021]: NIWC PACIFIC
+[Wed Apr 21 09:06:16 PDT 2021]: ====================
+[Wed Apr 21 09:06:16 PDT 2021]: 
+[Wed Apr 21 09:06:16 PDT 2021]: 
+[Wed Apr 21 09:06:16 PDT 2021]: Updated dm04 init_dttm to Jan 27 2021  3:30PM for mcn TRX1390.
+[Wed Apr 21 09:06:16 PDT 2021]: 
+[Wed Apr 21 09:06:16 PDT 2021]: 
+[Wed Apr 21 09:06:16 PDT 2021]: ====================
+[Wed Apr 21 09:06:16 PDT 2021]: 
+[Wed Apr 21 09:06:16 PDT 2021]: General Support Request Description: Change A1 date in maf table DM04_maf.init_dttm to next job status.
+[Wed Apr 21 09:06:16 PDT 2021]: 
+[Wed Apr 21 09:06:35 PDT 2021]: maf P9HG9GF
+[Wed Apr 21 09:06:59 PDT 2021]: cdm-list
+[Wed Apr 21 09:07:08 PDT 2021]: cmd-list
+[Wed Apr 21 09:07:38 PDT 2021]: maf-gserno P9HG9GF A5915
+[Wed Apr 21 09:07:50 PDT 2021]: isql
+[Wed Apr 21 09:18:08 PDT 2021]: tkt
+[Wed Apr 21 09:18:45 PDT 2021]: tkt clear
+[Wed Apr 21 09:18:48 PDT 2021]: tkt
+[Wed Apr 21 09:24:49 PDT 2021]: ddsn 1105BL5D
+[Wed Apr 21 09:24:55 PDT 2021]: goto mugu
+[Wed Apr 21 12:22:25 PDT 2021]: goto lemoore~
+[Wed Apr 21 12:29:01 PDT 2021]: ddsn 0358AT73
+[Wed Apr 21 12:29:11 PDT 2021]: ddsn 0358AY73
+[Wed Apr 21 12:29:21 PDT 2021]: isql
+[Wed Apr 21 15:15:14 PDT 2021]: cmd-edit isql
+[Wed Apr 21 15:21:20 PDT 2021]: isql
+[Wed Apr 21 15:21:24 PDT 2021]: isql -w
+[Wed Apr 21 15:22:16 PDT 2021]: cmd-edit isql
+[Wed Apr 21 15:24:39 PDT 2021]: isql -w
+[Wed Apr 21 15:24:54 PDT 2021]: cmd-edit isql
+[Wed Apr 21 15:25:13 PDT 2021]: isql -w
+[Wed Apr 21 15:25:39 PDT 2021]: cmd-edit isql
+[Wed Apr 21 15:26:38 PDT 2021]: isql -w
+[Wed Apr 21 15:27:36 PDT 2021]: isql -w
+[Wed Apr 21 15:29:37 PDT 2021]: cmd-edit isql
+[Wed Apr 21 15:33:27 PDT 2021]: isql -w
+[Wed Apr 21 15:36:37 PDT 2021]: isql -w
+[Thu Apr 22 09:01:24 PDT 2021]: ddsn 0358AY73
+[Thu Apr 22 09:02:20 PDT 2021]: isql -w
+[Thu Apr 22 09:09:22 PDT 2021]: isql -w
+[Thu Apr 22 09:12:41 PDT 2021]: isql -w
+[Thu Apr 22 09:13:42 PDT 2021]: tkt
+[Thu Apr 22 09:23:17 PDT 2021]: goto mugu
+[Mon Apr 26 11:29:08 PDT 2021]: puk LP8ANI 016423181
+[Mon Apr 26 11:29:30 PDT 2021]: puk-update
+[Mon Apr 26 11:30:12 PDT 2021]: niin 016423181
+[Mon Apr 26 11:30:43 PDT 2021]: cmd-edit puk.sql
+[Mon Apr 26 11:33:00 PDT 2021]: cmd-edit puk.sql
+[Mon Apr 26 11:36:03 PDT 2021]: isql -w
+[Mon Apr 26 11:37:36 PDT 2021]: isql -w
+[Mon Apr 26 11:37:48 PDT 2021]: isql -w
+[Mon Apr 26 11:38:04 PDT 2021]: isql -w
+[Mon Apr 26 11:45:00 PDT 2021]: cmd-edit isql
+[Mon Apr 26 13:00:37 PDT 2021]: cmd-list
+[Mon Apr 26 13:01:56 PDT 2021]: isql -w
+[Mon Apr 26 13:03:18 PDT 2021]: cmd-edit isql
+[Mon Apr 26 13:05:45 PDT 2021]: isql
+[Mon Apr 26 13:05:54 PDT 2021]: cmd-edit isql
+[Mon Apr 26 13:06:28 PDT 2021]: isql
+[Mon Apr 26 13:06:57 PDT 2021]: hist
+[Mon Apr 26 13:07:25 PDT 2021]: cmd-edit isql
+[Mon Apr 26 13:08:29 PDT 2021]: isql
+[Mon Apr 26 13:08:38 PDT 2021]: cmd-edit
+[Mon Apr 26 13:08:43 PDT 2021]: cmd-edit isql
+[Mon Apr 26 13:08:59 PDT 2021]: isql
+[Mon Apr 26 13:09:15 PDT 2021]: cmd-edit isql
+[Mon Apr 26 13:09:39 PDT 2021]: isql -w
+[Mon Apr 26 13:09:55 PDT 2021]: cmd-edit
+[Mon Apr 26 13:10:01 PDT 2021]: cmd-edit isql
+[Mon Apr 26 13:11:18 PDT 2021]: isql
+[Mon Apr 26 13:11:26 PDT 2021]: cmd-edit isql
+[Mon Apr 26 13:12:42 PDT 2021]: cmd-edit
+[Mon Apr 26 13:12:46 PDT 2021]: cmd-list
+[Wed Apr 28 08:51:19 PDT 2021]: goto fallon
+[Wed Apr 28 09:00:59 PDT 2021]: util-update
+[Wed Apr 28 09:03:57 PDT 2021]: goto fallon
+[Wed Apr 28 09:20:40 PDT 2021]: maf W Preston Neal -- 04.28.2021
+[Wed Apr 28 09:20:40 PDT 2021]: Email: william.p.neal.ctr@navy.mil
+[Wed Apr 28 09:20:40 PDT 2021]: Phone: 619.556.9680
+[Wed Apr 28 09:20:40 PDT 2021]: Cell: 858.218.6342
+[Wed Apr 28 09:20:40 PDT 2021]: NIWC PACIFIC
+[Wed Apr 28 09:20:40 PDT 2021]: ====================
+[Wed Apr 28 09:20:40 PDT 2021]: 
+[Wed Apr 28 09:20:40 PDT 2021]: Deleted dr09 record for ddsn 1062G253B.
+[Wed Apr 28 09:20:40 PDT 2021]: Deleted dr09 record for ddsn 1062G253C.
+[Wed Apr 28 09:20:40 PDT 2021]: 
+[Wed Apr 28 09:20:40 PDT 2021]: Corrected erroneous pod_qty and cncl_qty for ddsn 1062G253 and corresponding suffixes.
+[Wed Apr 28 09:20:40 PDT 2021]: 
+[Wed Apr 28 09:20:40 PDT 2021]: ====================
+[Wed Apr 28 09:20:40 PDT 2021]: 
+[Wed Apr 28 09:20:40 PDT 2021]: General Support Request Description: N44317-1062-G253 PLEASE KILLSUFFIX B AND SUFFIX C. THEY ARE ERRONEOUS SUFFIXES UNDER THIS REQUISITION.
+[Wed Apr 28 09:20:40 PDT 2021]: 
+[Wed Apr 28 09:20:56 PDT 2021]: maf P9HHPYP
+[Wed Apr 28 13:30:17 PDT 2021]: maf P9HH9VS
+[Wed Apr 28 13:30:40 PDT 2021]: maf-fixinit P9HH9VS
+[Wed Apr 28 13:30:42 PDT 2021]: tkt
+[Wed Apr 28 13:35:13 PDT 2021]: goto fallon
+[Thu Apr 29 10:06:09 PDT 2021]: goto lemoore~
+[Fri Apr 30 08:59:24 PDT 2021]: goto mugu
+[Mon May  3 08:34:57 PDT 2021]: goto lemoore
+[Mon May  3 09:01:21 PDT 2021]: maf P9HHAGY
+[Mon May  3 09:01:57 PDT 2021]: maf-fixinit P9HHAGY
+[Mon May  3 09:02:00 PDT 2021]: tkt
+[Mon May  3 09:03:16 PDT 2021]: isql -w
+[Mon May  3 09:08:12 PDT 2021]: isql -w
+[Mon May  3 09:08:44 PDT 2021]: maf P9HHAGY
+[Mon May  3 09:09:01 PDT 2021]: isql -w
+[Mon May  3 09:11:23 PDT 2021]: maf P9HHAGY
+[Mon May  3 09:11:36 PDT 2021]: isql -w
+[Mon May  3 09:12:03 PDT 2021]: maf-fixinit P9HHAGY
+[Mon May  3 09:12:36 PDT 2021]: maf P9HHAGY
+[Mon May  3 09:13:11 PDT 2021]: maf P9HHAGY
+[Mon May  3 09:13:38 PDT 2021]: isql
+[Mon May  3 09:20:35 PDT 2021]: tkt
+[Mon May  3 09:20:47 PDT 2021]: maf P9HHAGY
+[Mon May  3 09:20:55 PDT 2021]: maf-fixinit P9HHAGY
+[Mon May  3 09:20:57 PDT 2021]: tkt
+[Mon May  3 09:23:41 PDT 2021]: tkt clear
+[Mon May  3 09:23:42 PDT 2021]: ll
+[Mon May  3 09:23:44 PDT 2021]: tk
+[Mon May  3 09:23:46 PDT 2021]: tkt
+[Mon May  3 09:26:25 PDT 2021]: goto nasni
+[Mon May  3 09:31:10 PDT 2021]: util-edit ddsn-uncanx
+[Mon May  3 09:31:33 PDT 2021]: util-edit
+[Mon May  3 09:32:23 PDT 2021]: cmd-edit ddsn-uncanx
+[Mon May  3 09:32:37 PDT 2021]: cmd-edit ddsn-uncanx.sql
+[Mon May  3 09:34:01 PDT 2021]: util-update
+[Mon May  3 09:34:49 PDT 2021]: util-batch
+[Mon May  3 09:35:30 PDT 2021]: goto lemoore
+[Mon May  3 09:35:48 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Mon May  3 09:43:54 PDT 2021]: db-tables dr
+[Mon May  3 09:44:15 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Mon May  3 09:46:33 PDT 2021]: util-update
+[Mon May  3 09:47:23 PDT 2021]: goto lemoore
+[Mon May  3 09:47:53 PDT 2021]: goto lemoore~
+[Mon May  3 14:49:59 PDT 2021]: goto
+[Mon May  3 14:52:30 PDT 2021]: goto lemoore~
+[Mon May  3 15:00:57 PDT 2021]: cmd-edit util-batch
+[Mon May  3 15:01:46 PDT 2021]: util-update
+[Mon May  3 15:03:17 PDT 2021]: goto lemoore
+[Mon May  3 16:01:02 PDT 2021]: reset
+[Mon May  3 16:01:09 PDT 2021]: goto lemoore
+[Mon May  3 16:01:26 PDT 2021]: goto lemoore~
+[Tue May  4 09:40:06 PDT 2021]: goto lemoore
+[Tue May  4 10:28:37 PDT 2021]: 
+[Wed May  5 10:09:21 PDT 2021]: goto
+[Wed May  5 10:09:31 PDT 2021]: goto
+[Wed May  5 12:30:05 PDT 2021]: goto
+[Wed May  5 12:31:33 PDT 2021]: goto
+[Wed May  5 13:46:02 PDT 2021]: util-batch maf-fixinit
+[Wed May  5 13:46:30 PDT 2021]: cmd-edit util-batch
+[Wed May  5 13:52:58 PDT 2021]: util-batch maf-fixinit
+[Wed May  5 13:53:20 PDT 2021]: tkt
+[Wed May  5 13:53:39 PDT 2021]: cmd-edit maf-fixinit
+[Wed May  5 13:53:51 PDT 2021]: cmd-edit maf-fixinit.sql
+[Wed May  5 13:55:35 PDT 2021]: util-update
+[Wed May  5 14:29:08 PDT 2021]: goto
+[Wed May  5 21:16:38 PDT 2021]: isql
+[Thu May  6 09:40:11 PDT 2021]: isql
+[Thu May  6 10:31:31 PDT 2021]: isql
+[Thu May  6 10:31:56 PDT 2021]: goto mugu
+[Thu May  6 10:34:46 PDT 2021]: cmd-edit maf-eserno
+[Thu May  6 10:34:59 PDT 2021]: util-update
+[Thu May  6 10:35:53 PDT 2021]: goto fallon
+[Thu May  6 10:39:40 PDT 2021]: cmd-edit ddsn-status.sql
+[Thu May  6 10:40:19 PDT 2021]: util-update
+[Thu May  6 10:41:19 PDT 2021]: goto lemoore
+[Thu May  6 10:41:29 PDT 2021]: goto nasni
+[Thu May  6 11:27:48 PDT 2021]: isql
+[Thu May  6 12:57:04 PDT 2021]: goto lemoore
+[Thu May  6 12:57:14 PDT 2021]: goto fallon
+[Thu May  6 12:57:24 PDT 2021]: goto mugu
+[Thu May  6 12:57:34 PDT 2021]: goto nasni
+[Thu May  6 13:37:40 PDT 2021]: isql
+[Thu May  6 14:02:22 PDT 2021]: isql
+[Thu May  6 16:16:23 PDT 2021]: goto lemoore
+[Thu May  6 16:17:04 PDT 2021]: goto nasni
+[Thu May  6 17:12:57 PDT 2021]: isql
+[Thu May  6 22:37:17 PDT 2021]: db-columns de08
+[Fri May  7 09:13:45 PDT 2021]: isql
+[Fri May  7 09:31:28 PDT 2021]: isql -w
+[Fri May  7 09:31:41 PDT 2021]: isql -w
+[Fri May  7 12:10:21 PDT 2021]: isql
+[Fri May  7 13:10:39 PDT 2021]: isql
+[Mon May 10 09:04:14 PDT 2021]: goto lemoore
+[Mon May 10 09:14:37 PDT 2021]: tkt
+[Mon May 10 09:15:10 PDT 2021]: util-update
+[Mon May 10 09:16:13 PDT 2021]: goto nasni
+[Mon May 10 09:19:22 PDT 2021]: goto fallon
+[Mon May 10 09:36:49 PDT 2021]: cmd-edit ddsn-create-suffix
+[Mon May 10 09:37:08 PDT 2021]: cmd-edit ddsn-create-suffix.sql
+[Mon May 10 09:37:24 PDT 2021]: util-update
+[Mon May 10 09:38:11 PDT 2021]: goto lemoore
+[Mon May 10 10:20:02 PDT 2021]: tkt
+[Tue May 11 08:50:11 PDT 2021]: ddsn 1110GU68
+[Tue May 11 08:50:19 PDT 2021]: cmd-list
+[Tue May 11 08:50:32 PDT 2021]: ddsn-compl 1110GU68
+[Tue May 11 08:50:34 PDT 2021]: tkt
+[Tue May 11 08:51:48 PDT 2021]: jdate 130
+[Tue May 11 08:52:28 PDT 2021]: ddsn-lscdttm 1110GU68 5/10/2021 15:30
+[Tue May 11 08:52:30 PDT 2021]: tkt
+[Tue May 11 08:53:00 PDT 2021]: isql -w
+[Tue May 11 08:54:01 PDT 2021]: tkt
+[Tue May 11 08:57:45 PDT 2021]: goto mugu
+[Tue May 11 09:21:56 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Tue May 11 09:23:29 PDT 2021]: util-update
+[Tue May 11 09:45:11 PDT 2021]: goto lemoore
+[Tue May 11 10:08:14 PDT 2021]: goto fallon
+[Wed May 12 09:01:28 PDT 2021]: goto mugu
+[Wed May 12 09:19:38 PDT 2021]: goto mugu
+[Wed May 12 10:08:08 PDT 2021]: goto fallon
+[Wed May 12 10:33:16 PDT 2021]: goto fallon
+[Wed May 12 11:09:07 PDT 2021]: goto fallon
+[Wed May 12 11:28:12 PDT 2021]: goto fallon~
+[Wed May 12 11:32:54 PDT 2021]: isql
+[Wed May 12 11:35:08 PDT 2021]: goto
+[Wed May 12 11:40:07 PDT 2021]: goto
+[Thu May 13 09:14:03 PDT 2021]: isql
+[Thu May 13 09:45:06 PDT 2021]: isql
+[Thu May 13 09:52:25 PDT 2021]: isql
+[Thu May 13 09:59:45 PDT 2021]: isql
+[Thu May 13 10:08:20 PDT 2021]: isql
+[Thu May 13 10:08:38 PDT 2021]: goto
+[Thu May 13 10:16:36 PDT 2021]: isql
+[Thu May 13 11:05:12 PDT 2021]: isql
+[Thu May 13 14:33:02 PDT 2021]: goto
+[Thu May 13 15:20:44 PDT 2021]: goto
+[Thu May 13 15:20:56 PDT 2021]: goto
+[Thu May 13 15:35:59 PDT 2021]: goto
+[Thu May 13 15:40:42 PDT 2021]: goto
+[Thu May 13 16:17:21 PDT 2021]: goto
+[Tue May 18 14:14:01 PDT 2021]: jdate 12/14
+[Tue May 18 14:17:19 PDT 2021]: jdate 12/14/2020
+[Wed May 19 08:54:35 PDT 2021]: maf P9HHCGP
+[Wed May 19 08:55:31 PDT 2021]: maf-epartno P9HHCGP 1086142-0001
+[Wed May 19 08:55:54 PDT 2021]: maf-eserno P9HHCGP 1065
+[Wed May 19 08:55:57 PDT 2021]: tkt
+[Wed May 19 08:59:01 PDT 2021]: tkt clear
+[Wed May 19 08:59:03 PDT 2021]: ll
+[Wed May 19 08:59:26 PDT 2021]: util-batch
+[Wed May 19 08:59:33 PDT 2021]: util-batch maf-fixinit
+[Wed May 19 08:59:58 PDT 2021]: tkt
+[Wed May 19 09:00:25 PDT 2021]: cmd-edit maf-fixinit
+[Wed May 19 09:00:37 PDT 2021]: cmd-edit maf-fixinit.sql
+[Wed May 19 09:02:02 PDT 2021]: util-batch maf-fixinit
+[Wed May 19 09:02:13 PDT 2021]: tkt
+[Wed May 19 09:02:33 PDT 2021]: cmd-edit maf-fixinit.sql
+[Wed May 19 09:02:56 PDT 2021]: tkt clear
+[Wed May 19 09:03:05 PDT 2021]: util-batch maf-fixinit
+[Wed May 19 09:03:29 PDT 2021]: util-batch
+[Wed May 19 09:03:37 PDT 2021]: util-batch maf-fixinit
+[Wed May 19 09:04:07 PDT 2021]: tkt
+[Wed May 19 13:21:26 PDT 2021]: cmd-edit ddsn-createiou
+[Wed May 19 13:22:31 PDT 2021]: cmd-edit ddsn-createiou.sql
+[Wed May 19 13:31:16 PDT 2021]: util-update
+[Wed May 19 14:07:57 PDT 2021]: cmd-edit ddsn-createiou.sql
+[Wed May 19 14:08:29 PDT 2021]: util-update
+[Wed May 19 14:14:42 PDT 2021]: maf P9HHCGP
+[Wed May 19 14:17:24 PDT 2021]: tkt
+[Mon May 24 08:03:43 PDT 2021]: cmd-list
+[Mon May 24 08:03:57 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:07:43 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:08:27 PDT 2021]: sys-intfc
+[Mon May 24 08:08:36 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:08:51 PDT 2021]: sys-intfc
+[Mon May 24 08:09:00 PDT 2021]: cmd-edit sys-itfc
+[Mon May 24 08:09:06 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:10:10 PDT 2021]: cmd-edit tk
+[Mon May 24 08:10:31 PDT 2021]: cmd-edit isql
+[Mon May 24 08:21:14 PDT 2021]: sys-intfc
+[Mon May 24 08:21:31 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:21:59 PDT 2021]: sys-intfc
+[Mon May 24 08:22:06 PDT 2021]: sys-intfc start
+[Mon May 24 08:22:21 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:22:58 PDT 2021]: sys-intfc start
+[Mon May 24 08:23:09 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:24:46 PDT 2021]: sys-intfc
+[Mon May 24 08:24:51 PDT 2021]: sys-intfc start
+[Mon May 24 08:25:04 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:26:17 PDT 2021]: sys-intfc start
+[Mon May 24 08:26:31 PDT 2021]: cmd-edit sys-intfc
+[Mon May 24 08:31:19 PDT 2021]: util-update
+[Mon May 24 11:09:24 PDT 2021]: tkt
+[Tue May 25 10:31:45 PDT 2021]: db-columns ds03
+[Tue May 25 10:31:59 PDT 2021]: cmd-edit niin-difm.sql
+[Tue May 25 10:39:59 PDT 2021]: cmd-edit niin-difm
+[Tue May 25 10:40:40 PDT 2021]: util-update
+[Tue May 25 10:51:03 PDT 2021]: cmd-edit
+[Tue May 25 10:51:25 PDT 2021]: util-update
+[Thu May 27 08:33:21 PDT 2021]: cmd-edit ddsn.sql
+[Thu May 27 08:36:32 PDT 2021]: util-update
+[Thu Jun 17 10:16:08 PDT 2021]: naf P9HH93C
+[Thu Jun 17 10:16:18 PDT 2021]: maf P9HH93C
+[Thu Jun 17 10:16:38 PDT 2021]: isql
+[Thu Jun 17 15:06:49 PDT 2021]: cmd-edit ddsn-kill.sql
+[Thu Jun 17 15:07:35 PDT 2021]: cmd-edit ddsn.sql
+[Thu Jun 17 15:08:00 PDT 2021]: cmd-edit ddsn-kill.sql
+[Thu Jun 17 15:08:53 PDT 2021]: db-columns dr10
+[Thu Jun 17 15:09:07 PDT 2021]: cmd-edit ddsn-kill.sql
+[Thu Jun 17 15:11:40 PDT 2021]: util-update
+[Thu Jun 17 15:13:23 PDT 2021]: isql
+[Mon Jun 21 11:21:16 PDT 2021]: isql
+[Mon Jun 21 11:26:02 PDT 2021]: tkt
+[Mon Jun 21 11:28:14 PDT 2021]: isql
+[Mon Jun 21 12:13:41 PDT 2021]: tkt
+[Mon Jun 21 13:11:36 PDT 2021]: jdate 0293
+[Mon Jun 21 13:12:19 PDT 2021]: 287
+[Mon Jun 21 13:12:23 PDT 2021]: jdate 287
+[Mon Jun 21 13:13:37 PDT 2021]: 289
+[Mon Jun 21 13:13:40 PDT 2021]: jdate 289
+[Mon Jun 21 13:14:16 PDT 2021]: jdate 056
+[Mon Jun 21 13:14:42 PDT 2021]: jdate 058
+[Mon Jun 21 13:15:01 PDT 2021]: jdate 293
+[Mon Jun 21 13:15:20 PDT 2021]: jdate 288
+[Wed Jun 23 10:00:37 PDT 2021]: maf P9HHCEA
+[Wed Jun 23 10:01:56 PDT 2021]: db-columns actl_rcpt
+[Wed Jun 23 10:02:14 PDT 2021]: isql -w
+[Wed Jun 23 10:02:58 PDT 2021]: isql -w
+[Wed Jun 23 16:04:18 PDT 2021]: 
+[Thu Jun 24 12:33:16 PDT 2021]: isql
+[Thu Jun 24 12:35:45 PDT 2021]: cmd-list
+[Fri Jun 25 14:16:09 PDT 2021]: cmd-list
+[Fri Jun 25 14:16:22 PDT 2021]: util-update
+[Fri Jun 25 14:21:05 PDT 2021]: ll
+[Fri Jun 25 14:21:10 PDT 2021]: cmd-list
+[Fri Jun 25 14:21:20 PDT 2021]: cd ..
+[Fri Jun 25 14:23:52 PDT 2021]: db-columns dr06
+[Fri Jun 25 14:24:00 PDT 2021]: db-columns buno
+[Fri Jun 25 14:32:12 PDT 2021]: cmd-list
+[Fri Jun 25 14:32:30 PDT 2021]: util-update
+[Fri Jun 25 14:52:39 PDT 2021]: cmd-list
+[Fri Jun 25 14:53:41 PDT 2021]: puk LSASSG
+[Fri Jun 25 14:56:04 PDT 2021]: puk LSASSG 015126520
+[Fri Jun 25 14:56:13 PDT 2021]: puk-add
+[Fri Jun 25 14:56:38 PDT 2021]: puk-add 015126520 LSASSG 0
+[Fri Jun 25 14:57:21 PDT 2021]: puk LSASSG 015126520
+[Fri Jun 25 14:58:09 PDT 2021]: cmd-edit puk-add.sql
+[Fri Jun 25 14:58:43 PDT 2021]: tkt
+[Mon Jun 28 10:13:09 PDT 2021]: syb_utils
+[Mon Jun 28 10:17:20 PDT 2021]: syb_utils
+[Mon Jun 28 10:17:28 PDT 2021]: rciy
+[Mon Jun 28 10:19:26 PDT 2021]: syb_utils
+[Mon Jun 28 10:24:14 PDT 2021]: util-update
+[Mon Jun 28 10:27:39 PDT 2021]: cmd-edit syb_utils
+[Mon Jun 28 10:28:18 PDT 2021]: syb_utils
+[Mon Jun 28 10:28:38 PDT 2021]: cmd-edit syb_utils
+[Mon Jun 28 10:29:01 PDT 2021]: syb_utils
+[Mon Jun 28 10:29:21 PDT 2021]: ll
+[Mon Jun 28 10:29:26 PDT 2021]: util-update
+[Mon Jun 28 10:31:06 PDT 2021]: maf P9HHKMQ
+[Mon Jun 28 10:31:25 PDT 2021]: cmd-list
+[Mon Jun 28 10:31:44 PDT 2021]: maf-dm09swap P9HHKMQ
+[Mon Jun 28 10:31:46 PDT 2021]: tkt
+[Mon Jun 28 10:47:45 PDT 2021]: cmd-list
+[Mon Jun 28 10:50:25 PDT 2021]: cmd-edit maf-epartno
+[Mon Jun 28 10:50:38 PDT 2021]: cmd-edit maf-epartno.sql
+[Mon Jun 28 10:53:41 PDT 2021]: cmd-edit maf-epartno
+[Mon Jun 28 10:53:59 PDT 2021]: cmd-edit maf-epartno
+[Mon Jun 28 10:59:35 PDT 2021]: util-update
+[Mon Jun 28 11:04:57 PDT 2021]: cmd-edit maf-kill.sql
+[Mon Jun 28 11:57:01 PDT 2021]: util-update
+[Mon Jun 28 11:58:39 PDT 2021]: isql
+[Mon Jun 28 12:56:44 PDT 2021]: isql
+[Mon Jun 28 13:01:17 PDT 2021]: isql
+[Mon Jun 28 15:16:51 PDT 2021]: util-update
+[Mon Jun 28 15:17:28 PDT 2021]: cmd-edit maf-kill
+[Mon Jun 28 15:17:41 PDT 2021]: util-update
+[Mon Jun 28 15:18:07 PDT 2021]: maf-kill P9KTARN
+[Mon Jun 28 15:18:15 PDT 2021]: tkt
+[Mon Jun 28 15:18:46 PDT 2021]: maf-kill P9KTARL
+[Mon Jun 28 15:18:48 PDT 2021]: tkt
+[Mon Jun 28 15:18:56 PDT 2021]: maf P9KTARL
+[Mon Jun 28 15:19:33 PDT 2021]: maf P9KTARM
+[Mon Jun 28 15:34:02 PDT 2021]: maf P9HHKJ9
+[Mon Jun 28 15:34:33 PDT 2021]: maf-epartno P9HHKJ9 814259-3
+[Mon Jun 28 15:34:48 PDT 2021]: maf-activate P9HHKJ9
+[Mon Jun 28 15:34:50 PDT 2021]: tkt
+[Mon Jun 28 15:35:01 PDT 2021]: maf-epartno P9HHKJ9 814259-3
+[Mon Jun 28 15:35:49 PDT 2021]: isql
+[Mon Jun 28 15:37:16 PDT 2021]: tkt
+[Mon Jun 28 15:55:34 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Mon Jun 28 15:56:18 PDT 2021]: cmd-edit ddsn-compl.sql
+[Mon Jun 28 15:57:24 PDT 2021]: util-update
+[Mon Jun 28 15:58:05 PDT 2021]: cmd-list
+[Mon Jun 28 15:58:10 PDT 2021]: util-config
+[Mon Jun 28 16:28:12 PDT 2021]: util-update
+[Mon Jun 28 16:29:09 PDT 2021]: util-update
+[Mon Jun 28 16:40:09 PDT 2021]: util-update
+[Mon Jun 28 16:42:22 PDT 2021]: util-update
+[Mon Jun 28 16:43:06 PDT 2021]: util-update
+[Mon Jun 28 16:45:01 PDT 2021]: cmd-edit util-update
+[Mon Jun 28 16:45:43 PDT 2021]: util-update
+[Mon Jun 28 16:51:13 PDT 2021]: util-update
+[Mon Jun 28 16:52:25 PDT 2021]: util-update
+[Mon Jun 28 16:57:55 PDT 2021]: util-update
+[Mon Jun 28 17:00:37 PDT 2021]: util-update
+[Mon Jun 28 17:03:02 PDT 2021]: util-update
+[Mon Jun 28 17:18:15 PDT 2021]: util-udate
+[Mon Jun 28 17:18:20 PDT 2021]: util-update
+[Mon Jun 28 17:27:53 PDT 2021]: util-update
+[Mon Jun 28 17:30:57 PDT 2021]: util-update
+[Mon Jun 28 17:31:54 PDT 2021]: goto fallopn
+[Mon Jun 28 17:31:57 PDT 2021]: goto fallon
+[Mon Jun 28 17:32:12 PDT 2021]: cmd-edit util-update
+[Mon Jun 28 17:32:53 PDT 2021]: util-update
+[Mon Jun 28 17:35:04 PDT 2021]: cmd-edit util-update
+[Mon Jun 28 17:35:23 PDT 2021]: util-update
+[Mon Jun 28 17:36:03 PDT 2021]: tk goto
+[Mon Jun 28 17:36:08 PDT 2021]: goto fallon
+[Tue Jun 29 10:08:20 PDT 2021]: maf P9HHL8Z
+[Tue Jun 29 10:08:31 PDT 2021]: maf-dm09swap P9HHL8Z
+[Tue Jun 29 10:08:33 PDT 2021]: tkt
+[Tue Jun 29 10:14:49 PDT 2021]: cmd-list
+[Tue Jun 29 10:15:58 PDT 2021]: maf W Preston Neal -- 06.29.2021
+[Tue Jun 29 10:15:58 PDT 2021]: Email: william.p.neal.ctr@navy.mil
+[Tue Jun 29 10:15:58 PDT 2021]: Phone: 619.556.9680
+[Tue Jun 29 10:15:58 PDT 2021]: Cell: 828.341.1017
+[Tue Jun 29 10:15:58 PDT 2021]: NIWC PACIFIC
+[Tue Jun 29 10:15:58 PDT 2021]: ====================
+[Tue Jun 29 10:15:58 PDT 2021]: 
+[Tue Jun 29 10:15:58 PDT 2021]: Updated dm09 to swap e_ and g_ records for mcn P9HHL8Z.
+[Tue Jun 29 10:15:58 PDT 2021]: 
+[Tue Jun 29 10:15:58 PDT 2021]: ====================
+[Tue Jun 29 10:15:58 PDT 2021]: 
+[Tue Jun 29 10:15:58 PDT 2021]: General Support Request Description: MCN: P9HHL8Z
+[Tue Jun 29 10:15:58 PDT 2021]: 
+[Tue Jun 29 10:15:58 PDT 2021]: Removed / Old Item information should be in the Installed / New Item section of the MAF instead.
+[Tue Jun 29 10:15:58 PDT 2021]: 
+[Tue Jun 29 10:16:17 PDT 2021]: maf 3JUTPGF
+[Tue Jun 29 13:32:31 PDT 2021]: cmd-edit ddsn-kill.sql
+[Tue Jun 29 13:35:34 PDT 2021]: cmd-edit ddsn-scan.sql
+[Tue Jun 29 13:35:55 PDT 2021]: cmd-edit ddsn-kill.sql
+[Tue Jun 29 13:36:11 PDT 2021]: cmd-edit ddsn-scan.sql
+[Tue Jun 29 13:37:58 PDT 2021]: db-columns ddsn_suf
+[Tue Jun 29 13:38:26 PDT 2021]: cmd-edit ddsn-scan.sql
+[Wed Jun 30 11:33:41 PDT 2021]: maf P9HHL8J
+[Wed Jun 30 11:33:55 PDT 2021]: maf-fixinit P9HHL8J
+[Wed Jun 30 11:33:57 PDT 2021]: tkt
+[Wed Jun 30 11:36:13 PDT 2021]: isql
+[Wed Jun 30 11:44:20 PDT 2021]: tkt
+[Wed Jun 30 11:49:21 PDT 2021]: maf W Preston Neal -- 06.30.2021
+[Wed Jun 30 11:49:21 PDT 2021]: Email: william.p.neal.ctr@navy.mil
+[Wed Jun 30 11:49:21 PDT 2021]: Phone: 619.556.9680
+[Wed Jun 30 11:49:21 PDT 2021]: Cell: 828.341.1017
+[Wed Jun 30 11:49:22 PDT 2021]: NIWC PACIFIC
+[Wed Jun 30 11:49:22 PDT 2021]: ====================
+[Wed Jun 30 11:49:22 PDT 2021]: 
+[Wed Jun 30 11:49:22 PDT 2021]: Deleted requested dg02 records.
+[Wed Jun 30 11:49:22 PDT 2021]: 
+[Wed Jun 30 11:49:22 PDT 2021]: ====================
+[Wed Jun 30 11:49:22 PDT 2021]: 
+[Wed Jun 30 11:49:22 PDT 2021]: General Support Request Description: Delete W/C 62A Indirect Mat'l requests (see attachment).
+[Wed Jun 30 11:49:22 PDT 2021]: 
+[Wed Jun 30 11:49:24 PDT 2021]: Appropriate Times to Call Between and Time Zone: 0700-1500 PST
+[Wed Jun 30 11:49:44 PDT 2021]: maf P9HHCQB
+[Wed Jun 30 11:49:56 PDT 2021]: isq
+[Wed Jun 30 11:49:57 PDT 2021]: isql
+[Wed Jun 30 11:52:27 PDT 2021]: tkt
+[Wed Jun 30 12:27:22 PDT 2021]: isql
+[Wed Jun 30 12:29:46 PDT 2021]: isql
+[Wed Jun 30 12:38:06 PDT 2021]: isql
+[Wed Jun 30 12:39:04 PDT 2021]: isql
+[Wed Jun 30 13:15:02 PDT 2021]: isql -w
+[Wed Jun 30 13:19:03 PDT 2021]: isql
+[Wed Jun 30 15:33:06 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Wed Jun 30 15:34:49 PDT 2021]: db-columns dm01
+[Wed Jun 30 15:35:24 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Wed Jun 30 15:40:38 PDT 2021]: db-columns dr10
+[Wed Jun 30 15:40:46 PDT 2021]: hist
+[Wed Jun 30 15:40:52 PDT 2021]: hist all
+[Wed Jun 30 15:41:44 PDT 2021]: ddsn 0358AY73
+[Wed Jun 30 15:42:10 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Wed Jun 30 15:44:16 PDT 2021]: jdate
+[Wed Jun 30 15:44:42 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Wed Jun 30 15:55:40 PDT 2021]: db-columns dm15
+[Wed Jun 30 15:56:22 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Wed Jun 30 15:58:46 PDT 2021]: db-columns sts_doc_id
+[Wed Jun 30 15:59:06 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Wed Jun 30 16:04:24 PDT 2021]: util-update
+[Thu Jul  1 14:03:10 PDT 2021]: isql
+[Thu Jul  1 14:05:23 PDT 2021]: isql
+[Thu Jul  1 17:12:05 PDT 2021]: cmd-list
+[Thu Jul  1 17:13:36 PDT 2021]: cmd-edit sys-varlog
+[Thu Jul  1 17:14:26 PDT 2021]: goto fallon
+[Thu Jul  1 17:14:36 PDT 2021]: goto nasni
+[Thu Jul  1 17:14:55 PDT 2021]: goto mugu
+[Thu Jul  1 17:22:36 PDT 2021]: cmd-edit sys-varlog
+[Thu Jul  1 17:23:26 PDT 2021]: cmd-edit sys-varlog
+[Thu Jul  1 17:23:38 PDT 2021]: sys-varlog
+[Thu Jul  1 17:24:03 PDT 2021]: cmd-edit sys-varlog
+[Thu Jul  1 17:24:14 PDT 2021]: sys-varlog
+[Thu Jul  1 17:24:35 PDT 2021]: cmd-edit sys-varlog
+[Thu Jul  1 17:24:51 PDT 2021]: sys-varlog
+[Thu Jul  1 17:25:18 PDT 2021]: cmd-edit sys-varlog
+[Thu Jul  1 17:26:49 PDT 2021]: util-update
+[Thu Jul  8 09:54:09 PDT 2021]: cmd-edit ddsn-lscdttm.sql
+[Thu Jul  8 09:54:45 PDT 2021]: util-update
+[Thu Jul  8 10:08:28 PDT 2021]: ddsn 1090CK5DG
+[Thu Jul  8 10:09:32 PDT 2021]: cmd-edit isql
+[Thu Jul  8 10:10:14 PDT 2021]: isql
+[Thu Jul  8 10:15:07 PDT 2021]: ddsn 1090CK5D
+[Thu Jul  8 10:15:44 PDT 2021]: tkt
+[Thu Jul  8 13:15:58 PDT 2021]: ddsn
+[Thu Jul  8 13:16:11 PDT 2021]: ddsn
+[Mon Jul 12 10:34:39 PDT 2021]: maf P9HFD62
+[Mon Jul 12 10:35:34 PDT 2021]: cmd-edit maf.sql
+[Mon Jul 12 10:36:01 PDT 2021]: maf P9HFD62
+[Mon Jul 12 10:36:17 PDT 2021]: cmd-edit maf.sql
+[Mon Jul 12 10:36:43 PDT 2021]: maf P9HFD62
+[Mon Jul 12 10:43:56 PDT 2021]: util-update
+[Mon Jul 12 12:45:41 PDT 2021]: maf
+[Mon Jul 12 12:45:50 PDT 2021]: maf
+[Mon Jul 12 12:46:33 PDT 2021]: maf
+[Mon Jul 12 12:49:02 PDT 2021]: maf
+[Mon Jul 12 12:49:30 PDT 2021]: maf
+[Mon Jul 12 15:58:24 PDT 2021]: maf
+[Mon Jul 12 15:58:51 PDT 2021]: maf
+[Mon Jul 12 15:59:31 PDT 2021]: maf
+[Mon Jul 12 15:59:50 PDT 2021]: maf
+[Mon Jul 12 16:00:29 PDT 2021]: maf
+[Mon Jul 12 16:01:16 PDT 2021]: maf
+[Mon Jul 12 16:01:54 PDT 2021]: maf
+[Mon Jul 12 16:04:08 PDT 2021]: maf
+[Mon Jul 12 16:04:33 PDT 2021]: maf
+[Mon Jul 12 16:09:23 PDT 2021]: maf
+[Mon Jul 12 16:10:09 PDT 2021]: maf
+[Mon Jul 12 16:11:35 PDT 2021]: maf
+[Mon Jul 12 16:12:45 PDT 2021]: maf
+[Mon Jul 12 16:14:08 PDT 2021]: maf
+[Mon Jul 12 16:15:40 PDT 2021]: maf
+[Mon Jul 12 16:18:45 PDT 2021]: maf
+[Mon Jul 12 16:32:17 PDT 2021]: maf
+[Mon Jul 12 16:40:17 PDT 2021]: maf
+[Mon Jul 12 16:41:28 PDT 2021]: maf
+[Mon Jul 12 16:44:52 PDT 2021]: maf
+[Mon Jul 12 16:46:47 PDT 2021]: tk_tbl dg
+[Mon Jul 12 16:46:54 PDT 2021]: db_tables dg
+[Mon Jul 12 16:46:59 PDT 2021]: cmd-list
+[Mon Jul 12 16:47:09 PDT 2021]: db-tables dg
+[Mon Jul 12 16:50:47 PDT 2021]: maf
+[Mon Jul 12 16:52:37 PDT 2021]: maf
+[Mon Jul 12 16:57:39 PDT 2021]: maf
+[Mon Jul 12 16:59:32 PDT 2021]: maf
+[Mon Jul 12 17:00:18 PDT 2021]: maf
+[Mon Jul 12 17:00:26 PDT 2021]: maf
+[Mon Jul 12 17:53:58 PDT 2021]: maf
+[Tue Jul 13 08:14:06 PDT 2021]: puk LSASG4 075452670
+[Tue Jul 13 08:14:18 PDT 2021]: puk-add
+[Tue Jul 13 08:14:48 PDT 2021]: puk-add LSASG4 075452670 0
+[Tue Jul 13 08:17:25 PDT 2021]: puk-add 075452670 LSASG4 0
+[Tue Jul 13 08:18:23 PDT 2021]: tkt
+[Tue Jul 13 08:31:04 PDT 2021]: cmd-edit puk-add
+[Tue Jul 13 08:32:04 PDT 2021]: util-update
+[Tue Jul 13 09:45:51 PDT 2021]: cmd-edit niin-dbag75
+[Tue Jul 13 09:47:36 PDT 2021]: util-update
+[Tue Jul 13 17:32:43 PDT 2021]: 
+[Tue Jul 13 17:32:43 PDT 2021]: 
+[Tue Jul 13 17:32:43 PDT 2021]: 
+[Tue Jul 13 17:32:43 PDT 2021]: 
+[Wed Jul 14 09:19:46 PDT 2021]: hist
+[Wed Jul 14 09:19:59 PDT 2021]: puk LSASG4 075452670
+[Wed Jul 14 09:20:11 PDT 2021]: puk LSASG4 015452670
+[Wed Jul 14 09:20:38 PDT 2021]: puk-add 015452670 LSASG4 0
+[Wed Jul 14 09:20:49 PDT 2021]: isql
+[Wed Jul 14 09:22:00 PDT 2021]: tkt
+[Wed Jul 14 09:25:41 PDT 2021]: puk-add 001067401 LEP3P2 0
+[Wed Jul 14 09:25:43 PDT 2021]: tkt
+[Thu Jul 15 12:45:46 PDT 2021]: util-batch maf-dm09swap
+[Thu Jul 15 12:46:23 PDT 2021]: tkt
+[Thu Jul 15 12:46:55 PDT 2021]: cmd-edit util-batch
+[Thu Jul 15 12:51:23 PDT 2021]: tkt clear
+[Thu Jul 15 12:53:10 PDT 2021]: util-batch maf-dm09swap
+[Thu Jul 15 12:53:39 PDT 2021]: tkt
+[Thu Jul 15 12:56:02 PDT 2021]: maf P9HHMQP
+[Thu Jul 15 12:56:19 PDT 2021]: isql
+[Thu Jul 15 12:57:17 PDT 2021]: maf-scan P9HHMQP
+[Thu Jul 15 13:03:09 PDT 2021]: tkt
+[Thu Jul 15 13:21:30 PDT 2021]: cmd-list
+[Thu Jul 15 13:35:28 PDT 2021]: db-columns purp_cd
+[Thu Jul 15 13:36:12 PDT 2021]: isql
+[Thu Jul 15 13:57:56 PDT 2021]: util-update
+[Thu Jul 15 14:04:52 PDT 2021]: util-update
+[Thu Jul 15 14:49:01 PDT 2021]: util-update
+[Thu Jul 15 14:52:33 PDT 2021]: util-update
+[Thu Jul 15 14:54:15 PDT 2021]: goto mugu
+[Mon Jul 19 10:02:49 PDT 2021]: maf P9HHNQ2
+[Mon Jul 19 10:03:16 PDT 2021]: niin-difm 015606650
+[Mon Jul 19 10:05:26 PDT 2021]: niin 015606550
+[Mon Jul 19 10:05:38 PDT 2021]: niin 015606650
+[Mon Jul 19 10:07:06 PDT 2021]: ll
+[Mon Jul 19 10:07:08 PDT 2021]: cmd-list
+[Mon Jul 19 10:08:59 PDT 2021]: isql
+[Mon Jul 19 10:09:56 PDT 2021]: niin-difm 015606650
+[Mon Jul 19 10:10:05 PDT 2021]: niin-dbag75 015606650
+[Mon Jul 19 10:10:08 PDT 2021]: tkt
+[Mon Jul 19 10:17:52 PDT 2021]: maf P9HHN8C
+[Mon Jul 19 10:17:58 PDT 2021]: maf-scan P9HHN8C
+[Mon Jul 19 10:19:05 PDT 2021]: isql
+[Mon Jul 19 13:56:33 PDT 2021]: isql
+[Mon Jul 19 13:56:53 PDT 2021]: isql
+[Mon Jul 19 14:01:44 PDT 2021]: isql
+[Mon Jul 19 14:01:49 PDT 2021]: isql -w
+[Mon Jul 19 14:12:24 PDT 2021]: cmd-edit sys-oomadb
+[Mon Jul 19 14:13:20 PDT 2021]: cmd-edit sys-oomadb.sql
+[Mon Jul 19 14:14:25 PDT 2021]: cmd-edit sys-oomadb
+[Mon Jul 19 14:15:52 PDT 2021]: ll
+[Mon Jul 19 14:16:07 PDT 2021]: cmd-edit sys-oomadb.sql
+[Mon Jul 19 14:17:12 PDT 2021]: sys-oomadb
+[Mon Jul 19 14:18:06 PDT 2021]: cmd-edit sys-oomadb.sql
+[Mon Jul 19 14:18:15 PDT 2021]: isql
+[Mon Jul 19 14:23:55 PDT 2021]: cmd-edit sys-oomadb
+[Mon Jul 19 14:24:36 PDT 2021]: cmd-edit sys-cm
+[Mon Jul 19 14:25:12 PDT 2021]: sys-cm
+[Mon Jul 19 14:25:26 PDT 2021]: ll
+[Mon Jul 19 14:25:28 PDT 2021]: ls -al
+[Mon Jul 19 14:25:35 PDT 2021]: cmd-edit isql
+[Mon Jul 19 14:26:17 PDT 2021]: isql
+[Mon Jul 19 14:30:29 PDT 2021]: cmd-edit sys-oomadb
+[Mon Jul 19 14:32:05 PDT 2021]: cmd-edit isql
+[Mon Jul 19 14:32:37 PDT 2021]: cmd-edit execsqld
+[Mon Jul 19 14:33:49 PDT 2021]: util-update
+[Wed Jul 21 18:03:31 PDT 2021]: mcn P9HHNQ5
+[Wed Jul 21 18:03:36 PDT 2021]: maf P9HHNQ5
+[Wed Jul 21 18:04:19 PDT 2021]: maf P9HHNQ5
+[Wed Jul 21 18:04:32 PDT 2021]: 
+[Wed Jul 21 18:04:32 PDT 2021]: 
+[Wed Jul 21 18:04:48 PDT 2021]: mcn P9HHNQ5
+[Wed Jul 21 18:04:51 PDT 2021]: maf P9HHNQ5
+[Wed Jul 21 18:05:51 PDT 2021]: cmd-edit maf.sql
+[Wed Jul 21 18:13:06 PDT 2021]: db-columns
+[Wed Jul 21 18:13:35 PDT 2021]: db-columns dm15
+[Wed Jul 21 18:15:28 PDT 2021]: maf P9HHNQ5
+[Wed Jul 21 18:15:37 PDT 2021]: cmd-edit maf.sql
+[Wed Jul 21 18:15:56 PDT 2021]: maf P9HHNQ5
+[Wed Jul 21 18:16:10 PDT 2021]: util-update
+[Thu Jul 22 10:41:45 PDT 2021]: util-batch
+[Thu Jul 22 10:41:56 PDT 2021]: util-batch maf-dm09swap
+[Thu Jul 22 10:42:14 PDT 2021]: tkt
+[Thu Jul 22 10:48:45 PDT 2021]: cmd-list
+[Thu Jul 22 10:51:17 PDT 2021]: db-columns dm18
+[Thu Jul 22 10:51:46 PDT 2021]: db-tables dm21
+[Thu Jul 22 10:55:54 PDT 2021]: util-update
+[Thu Jul 22 11:01:28 PDT 2021]: util-batch maf-dm21swap
+[Thu Jul 22 11:01:46 PDT 2021]: tkt
+[Thu Jul 22 11:01:59 PDT 2021]: maf-scan P9HHPTV
+[Thu Jul 22 11:02:53 PDT 2021]: cmd-list
+[Thu Jul 22 11:03:10 PDT 2021]: db-transledg
+[Thu Jul 22 11:03:20 PDT 2021]: db-transledg P9HHPTV
+[Thu Jul 22 11:03:34 PDT 2021]: db-transledg mcn P9HHPTV
+[Thu Jul 22 11:04:51 PDT 2021]: tkt
+[Thu Jul 22 11:06:57 PDT 2021]: cmd-list
+[Thu Jul 22 11:07:00 PDT 2021]: tkt clear
+[Thu Jul 22 11:07:24 PDT 2021]: maf P9HHNQ5
+[Thu Jul 22 11:08:07 PDT 2021]: isql
+[Thu Jul 22 11:10:47 PDT 2021]: tkt
+[Thu Jul 22 11:19:16 PDT 2021]: cmd-edit isql
+[Thu Jul 22 11:20:19 PDT 2021]: isql
+[Thu Jul 22 11:30:52 PDT 2021]: tkt
+[Thu Jul 22 11:31:52 PDT 2021]: util-batch maf-dm09swap
+[Thu Jul 22 11:32:13 PDT 2021]: tkt
+[Thu Jul 22 11:33:41 PDT 2021]: tkt clear
+[Thu Jul 22 11:33:57 PDT 2021]: maf-dm09swap P9HHQ0X
+[Thu Jul 22 11:33:59 PDT 2021]: tkt
+[Thu Jul 22 11:34:11 PDT 2021]: maf P9HHQ0X
+[Thu Jul 22 11:34:27 PDT 2021]: maf P9HHQOX
+[Thu Jul 22 11:38:01 PDT 2021]: maf P9HHNQ6
+[Thu Jul 22 11:39:18 PDT 2021]: isql
+[Thu Jul 22 11:40:27 PDT 2021]: ll
+[Thu Jul 22 11:40:49 PDT 2021]: isql
+[Thu Jul 22 11:42:21 PDT 2021]: tkt
+[Thu Jul 22 12:09:52 PDT 2021]: ll
+[Thu Jul 22 12:09:57 PDT 2021]: cmd-list
+[Thu Jul 22 12:10:12 PDT 2021]: jhelp
+[Thu Jul 22 12:10:14 PDT 2021]: help
+[Thu Jul 22 12:10:26 PDT 2021]: help ddsn-kill
+[Thu Jul 22 12:10:43 PDT 2021]: util-config
+[Thu Jul 22 12:12:04 PDT 2021]: syb_utils
+[Thu Jul 22 12:22:40 PDT 2021]: exi
+[Mon Jul 26 10:16:29 PDT 2021]: maf P9HHpWS
+[Mon Jul 26 10:16:38 PDT 2021]: maf P9HHPWS
+[Mon Jul 26 10:17:21 PDT 2021]: maf-epn
+[Mon Jul 26 10:17:30 PDT 2021]: cmd-list
+[Mon Jul 26 10:17:54 PDT 2021]: maf-epartno P9HHPWS 918918-111
+[Mon Jul 26 10:18:20 PDT 2021]: tkt
+[Mon Jul 26 10:19:23 PDT 2021]: cmd-edit maf-epartno
+[Mon Jul 26 10:19:43 PDT 2021]: util-update
+[Mon Jul 26 20:13:49 PDT 2021]: isql
+[Mon Jul 26 20:20:22 PDT 2021]: ddsn 1205GE17
+[Tue Jul 27 08:44:46 PDT 2021]: maf 2IGP2YH
+[Tue Jul 27 08:45:23 PDT 2021]: maf 21GP2YH
+[Tue Jul 27 08:45:37 PDT 2021]: maf-scan 2IGP2YH
+[Tue Jul 27 08:48:44 PDT 2021]: isql -w
+[Tue Jul 27 08:52:00 PDT 2021]: ddsn 1204GE13
+[Tue Jul 27 08:52:37 PDT 2021]: isql -w
+[Tue Jul 27 08:55:18 PDT 2021]: tkt
+[Tue Jul 27 13:03:21 PDT 2021]: isql
+[Tue Jul 27 14:43:40 PDT 2021]: ext
+[Wed Jul 28 12:35:02 PDT 2021]: isql
+[Wed Jul 28 13:11:40 PDT 2021]: ll
+[Wed Jul 28 13:11:43 PDT 2021]: cmd-list
+[Wed Jul 28 21:39:36 PDT 2021]: 
+[Wed Jul 28 21:39:36 PDT 2021]: 
+[Wed Jul 28 21:39:36 PDT 2021]: 
+[Wed Jul 28 21:39:36 PDT 2021]: 
+[Wed Jul 28 21:39:36 PDT 2021]: 
+[Thu Jul 29 10:05:32 PDT 2021]: isql
+[Thu Jul 29 11:35:08 PDT 2021]: isql
+[Thu Jul 29 13:15:44 PDT 2021]: cmd-edit maf-kickback.sql
+[Thu Jul 29 13:18:22 PDT 2021]: util-update
+[Thu Jul 29 13:59:28 PDT 2021]: isql
+[Thu Jul 29 14:03:22 PDT 2021]: db-storedprocs
+[Thu Jul 29 14:03:42 PDT 2021]: db-storedprocs
+[Thu Jul 29 14:06:00 PDT 2021]: db-storedprocs
+[Thu Jul 29 14:10:40 PDT 2021]: db-storedprocs
+[Thu Jul 29 14:11:00 PDT 2021]: cmd-edit db-storedprocs.sql
+[Thu Jul 29 14:11:13 PDT 2021]: db-storedprocs
+[Thu Jul 29 14:11:40 PDT 2021]: isql -w
+[Thu Jul 29 14:12:47 PDT 2021]: isql -w
+[Thu Jul 29 14:14:31 PDT 2021]: isql
+[Thu Jul 29 14:38:36 PDT 2021]: ll
+[Mon Aug  2 08:41:12 PDT 2021]: puk-addj
+[Mon Aug  2 08:41:16 PDT 2021]: puk-add
+[Mon Aug  2 08:41:54 PDT 2021]: util-batch puk-add
+[Mon Aug  2 08:44:06 PDT 2021]: tkt
+[Mon Aug  2 13:29:24 PDT 2021]: util-update
+[Mon Aug  2 13:31:10 PDT 2021]: tkt
+[Thu Aug  5 08:49:57 PDT 2021]: cmd-list
+[Thu Aug  5 08:50:52 PDT 2021]: cmd-list
+[Thu Aug  5 08:50:53 PDT 2021]: list
+[Thu Aug  5 08:51:20 PDT 2021]: db-storedprocs
+[Thu Aug  5 08:51:50 PDT 2021]: ll
+[Thu Aug  5 08:56:27 PDT 2021]: cmd-list
+[Thu Aug  5 08:56:40 PDT 2021]: db-storedprocs
+[Thu Aug  5 08:57:16 PDT 2021]: db-getsql prna_pipeadhocitems
