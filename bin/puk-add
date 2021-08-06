@@ -1,0 +1,33 @@
+#!/bin/bash
+# creates a puk record on ds03
+sqlfile="/h/USERS/$USER/toolkit/sql/puk-add.sql"
+# source the config file
+. ~/toolkit/etc/tk.config
+
+ARGS=3
+
+if [ "$#" -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: puk-add <niin> <pkup id> <qty>"
+	exit
+elif [ ${#1} -ne 9 ]; then
+	echo "Error. Invalid argument!"
+	echo "NIIN must be 9 characters."
+	exit
+elif [ ${#2} -ne 6 ]; then
+	echo "Error. Invalid argument!"
+	echo "PKUP ID must be 6 characters."
+elif ! [[ "$3" =~ ^[0-9]+$ ]]; then
+    echo "Error. Invalid argument!"
+    echo "Quantity must be a number."
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket

@@ -1,0 +1,31 @@
+#!/bin/bash
+. /h/USERS/$USER/toolkit/etc/tk.config
+
+batchfile=$ETCDIR/tk.batchfile
+
+ARGS=1
+
+if [ "$#" -ne $ARGS ]; then
+	echo "Error. Invalid argument!"
+	echo "Usage: util-batch <command>"
+	exit
+fi
+
+if [ -f $BINDIR/$1 ]; then
+	read -p "Create batch file? (y/n): "
+	if [ "$REPLY" == "y" ] || [ "$REPLY" == "Y" ]; then
+		vim $batchfile
+		if [ -f $batchfile ] && [ -s $batchfile ]; then
+        	while read line; do
+            	$BINDIR/$1 $line
+        	done < $batchfile
+        	rm -f $batchfile
+    	else
+			echo "$batchfile not found/is empty!"
+			exit
+		fi
+	fi
+else
+	echo "Command $1 not found in Toolkit!"
+	exit
+fi

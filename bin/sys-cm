@@ -1,0 +1,32 @@
+#!/bin/bash
+# checks if the CM flag is on
+sqlfile="/h/USERS/$USER/toolkit/sql/sys-cm.sql"
+
+ARGS=0
+
+if [ $# -gt "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: cm <on/off>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+	txt="!VAR$i!"
+	sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead &> /dev/null
+
+cmflag=$(cat /tmp/.tmptksql.var)
+
+if [ $cmflag = "Y" ]; then
+	echo "Optimized CM flag is on."
+else
+	echo "Optimized CM flag is off."
+fi
+
+rm /tmp/.tmptksql.var

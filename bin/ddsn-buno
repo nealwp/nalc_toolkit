@@ -1,0 +1,21 @@
+#!/bin/bash
+# updates the buno for a ddsn
+sqlfile="/h/USERS/$USER/toolkit/sql/ddsn-buno.sql"
+
+ARGS=2
+
+if [ "$#" -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: ddsn-org <ddsn> <buno>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket

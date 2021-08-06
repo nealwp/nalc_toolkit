@@ -1,0 +1,117 @@
+#!/bin/bash
+# quick ssh to a given site
+
+. ~/toolkit/etc/tk.hosts
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: goto <fallon|lemoore|mugu|nasni|whidbey>"
+	exit
+fi
+
+case $1 in
+
+	fallon)
+        if [ "$HOSTNAME" != "$fallon" ]; then
+			ssh -q -t -W ~/.val $fallon ~/toolkit/tk
+		else
+			echo "You're already in fallon!"
+			exit
+		fi
+		;;
+
+	fallon~)
+        if [ "$HOSTNAME" != "$fallon" ]; then
+            ssh -q -t -W ~/.val $fallon
+        else
+            echo "You're already in fallon!"
+            exit
+        fi
+        ;;
+
+
+	lemoore)
+        if [ "$HOSTNAME" != "$lemoore" ]; then
+			ssh -q -t -W ~/.val $lemoore ~/toolkit/tk
+		else
+			echo "You're already in lemoore!"
+			exit
+		fi
+		;;
+
+	lemoore~)
+        if [ "$HOSTNAME" != "$lemoore" ]; then
+            ssh -q -t -W ~/.val $lemoore
+        else
+            echo "You're already in lemoore!"
+            exit
+        fi
+        ;;
+
+
+	mugu)
+		if [ "$HOSTNAME" != "$ptmugu" ]; then
+	        ssh -q -t -W ~/.val $ptmugu ~/toolkit/tk
+		else
+			echo "You're already in pt mugu!"
+			exit	
+		fi
+		;;
+
+	mugu~)
+        if [ "$HOSTNAME" != "$ptmugu" ]; then
+            ssh -q -t -W ~/.val $ptmugu
+        else
+            echo "You're already in pt mugu!"
+            exit
+        fi
+        ;;
+
+	
+	nasni)
+		if [ "$HOSTNAME" != "$nasni" ]; then 
+			ssh -q -t -W ~/.val $nasni ~/toolkit/tk
+		else
+			echo "You're already in nasni!"
+			exit
+		fi
+		;;
+
+	nasni~)
+        if [ "$HOSTNAME" != "$nasni" ]; then
+            ssh -q -t -W ~/.val $nasni
+        else
+            echo "You're already in nasni!"
+            exit
+        fi
+        ;;
+
+
+	whidbey)
+		if [ "$HOSTNAME" != "$whidbey" ]; then
+			ssh -q -t -W ~/.val $whidbey ~/toolkit/tk
+		else
+			echo "You're already in whidbey!"
+		exit
+		fi
+		;;
+
+
+    whidbey~)
+        if [ "$HOSTNAME" != "$whidbey" ]; then
+            ssh -q -t -W ~/.val $whidbey
+        else
+            echo "You're already in whidbey!"
+        exit
+        fi
+        ;;
+
+	
+	*)
+		echo "Error. Invalid argument."
+		echo "Usage: goto <fallon|lemoore|mugu|nasni|whidbey>"
+		exit
+		;;
+esac

@@ -1,0 +1,20 @@
+#!/bin/bash
+# displays Toolkit command history
+
+. /h/USERS/$USER/toolkit/etc/tk.config
+
+histfile="$ETCDIR/tk.history"
+
+
+if [ "$1" == "clear" ]; then
+    echo -n "" > $histfile
+    echo " Cleared Toolkit history!"
+elif [ "$1" == "all" ]; then
+	echo ""
+	cat "$histfile"
+	echo ""
+else
+	echo ""
+	tail -n25 "$histfile"
+    echo ""
+fi

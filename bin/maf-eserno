@@ -1,0 +1,25 @@
+#!/bin/bash
+# changes the removed serno for a maf
+sqlfile="/h/USERS/$USER/toolkit/sql/maf-eserno.sql"
+
+ARGS=2
+
+if [ "$#" -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: maf-eserno <mcn> <new e_serno>"
+	exit
+elif [ ${#1} -ne 7 ]; then
+	echo "Error. Invalid argument!"
+	echo "MCN must be 7 characters."
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket

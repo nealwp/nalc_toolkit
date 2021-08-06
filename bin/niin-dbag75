@@ -1,0 +1,27 @@
+#!/bin/bash
+# re-calculates ds02_invdata for a NIIN
+
+sqlfile="/h/USERS/$USER/toolkit/sql/niin-dbag75.sql"
+
+ARGS=1
+
+if [ "$#" -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: niin-dbag75 <niin>"
+	exit
+elif [ ${#1} -ne 9 ]; then
+	echo "Error. Invalid argument!"
+	echo "Argument <niin> must be 9 characters."
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket
+

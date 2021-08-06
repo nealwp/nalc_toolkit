@@ -1,0 +1,23 @@
+#!/bin/bash
+# creates a ds03 DIFM record from an existing MAF
+
+sqlfile="/h/USERS/$USER/toolkit/sql/maf-createdifm.sql"
+
+ARGS=2
+
+if [ "$#" -gt "$ARGS" ] || [ "$#" -eq 0 ]; then
+        echo "Error. Invalid argument."
+        echo "Usage: maf-createdifm <mcn> [<aimd_uic>]"
+        exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket
+

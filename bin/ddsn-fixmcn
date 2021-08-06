@@ -1,0 +1,23 @@
+#!/bin/bash
+# fixes cur/rep mcn on dr09 to resolve Critical Error when clearing CRA
+
+sqlfile="/h/USERS/$USER/toolkit/sql/ddsn-fixmcn.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+        echo "Error. Invalid argument."
+        echo "Usage: ddsn-fixmcn <ddsn>"
+        exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead

@@ -1,0 +1,22 @@
+#!/bin/bash
+# scans all of p2db for ddsn
+
+ARGS=1
+
+sqlfile="/h/USERS/$USER/toolkit/sql/ddsn-scan.sql"
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: ddsn-scan <ddsn>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+	txt="!VAR$i!"
+	sqltxt=${sqltxt//$txt/${!i}}
+done
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead

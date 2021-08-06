@@ -1,0 +1,73 @@
+#!/bin/bash
+# checks for updates and grabs them
+
+. /h/USERS/$USER/toolkit/etc/tk.config
+. $ETCDIR/tk.version
+
+if ! [ $(echo "$HOSTNAME" | cut -d "." -f2) == "naswhdb" ]; then
+	echo "Update script can only be run from Whidbey!"
+	exit
+fi
+
+cksum_here="/h/USERS/$USER/toolkit/etc/tk.cksum"
+cksum_there="/h/USERS/$USER/toolkit/etc/tk.ext_cksum"
+hosts=$(cat ~/toolkit/etc/tk.hosts | cut -d "=" -f2 | sed 's/"//g')
+
+echo "Enter update description: (CTRL+D when finished)"
+update_note=$(</dev/stdin)
+
+next_ver=$((min_upd + 1))
+now=$(date +"%m.%d.%Y_%R")
+sed -i "s/min_upd=.*/min_upd=$next_ver/" $ETCDIR/tk.version
+sed -i "s/version_date=.*/version_date=$now/" $ETCDIR/tk.version
+
+. $ETCDIR/tk.version
+
+find ~/toolkit -type f | xargs cksum > $cksum_here
+
+for host in $hosts
+do
+	if [ "$host" == "$HOSTNAME" ]; then
+		continue
+	fi
+
+	echo -n " -- Updating "
+	echo -n $host | cut -d "." -f2	
+	
+	ssh -W ~/.val -q $host "find ~/toolkit -type f | xargs cksum > /h/USERS/$USER/toolkit/etc/tk.cksum; cat /h/USERS/$USER/toolkit/etc/tk.cksum" > $cksum_there 
+	
+	while IFS= read -r cksum_line_here
+	do
+		cksum_line_there=$(cat $cksum_there | grep "$cksum_line_here")
+	
+		if ! [ "$cksum_line_here" == "$cksum_line_there" ]; then
+			filepath=$(echo "$cksum_line_here" | cut -d" " -f3)
+			if [[ $filepath != *"/etc/"* ]]; then
+				scp -W ~/.val -q $filepath $host:$filepath
+			fi
+		fi
+	
+	done < "$cksum_here"
+	
+	ssh -W ~/.val -q $host "sed -i 's/min_upd=.*/min_upd=$next_ver/' $ETCDIR/tk.version; sed -i 's/version_date=.*/version_date=$now/' $ETCDIR/tk.version" &> /dev/null
+
+done
+
+# update_version
+
+#next_ver=$((min_upd + 1))
+#now=$(date +"%m.%d.%Y_%R")
+#sed -i "s/min_upd=.*/min_upd=$next_ver/" $ETCDIR/tk.version
+#sed -i "s/version_date=.*/version_date=$now/" $ETCDIR/tk.version
+
+#. $ETCDIR/tk.version
+
+version_str="
+Version: $version
+Date:    $now
+---------------------
+$update_note
+--------------------
+"
+echo "$version_str" >> $ETCDIR/tk.version_history
+echo " Update complete!"

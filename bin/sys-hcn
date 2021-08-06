@@ -1,0 +1,22 @@
+#!/bin/bash
+# checks if the hard copy notice is running
+
+hcnjob=$(ps -eo cmd | grep -c '^/bin/csh /h/OIMABT/bin/hcn_print.scr')
+hcnpid=$(ps -C hcn_print.scr -o pid= | sed 's/ //g')
+
+if [ "$hcnjob" -ne 0 ]; then
+	echo "OIMA Hard-Copy Notice is running. PID: $hcnpid"
+	if [ "$1" == "kill" ]; then
+		echo " Stopping hard-copy notice process (pid: $hcnpid)..."
+		read -p " Continue? (y/n): " input
+		if [ "$input" == "y" ]; then
+			# kill $hcnpid
+			echo " hcn process has been killed."
+		fi
+	fi
+else
+	echo "OIMA Hard-Copy Notice is down!"
+fi
+
+	 
+

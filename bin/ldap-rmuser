@@ -1,0 +1,41 @@
+#!/bin/bash
+# fully removes a user from NTCSS and all assigned apps via LDAP
+
+LDAPTOOLS="/h/USERS/$USER/toolkit/bin/LDAP_TOOLS"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error! Invalid argument."
+	echo "Usage: ldap-rmuser <login_id>"
+	exit
+fi
+
+(cat ~/.val | sudo -S echo -n "") &> /dev/null
+
+if [ -d "$LDAPTOOLS" ]; then
+
+    loginid="$1"
+    fullname=$( sudo $LDAPTOOLS/ntcss_users.sh | grep -A 1 $loginid | tail -1 )
+	#echo "$fullname"
+	userapps=$( sudo $LDAPTOOLS/getusrgrps.sh $loginid )
+	userapps=${userapps//[0-9]/}
+	
+	#echo "$userapps"
+
+	for app in $userapps
+	do
+		if [[ $app != "ntcss" ]]; then
+			echo "deleting $loginid from $app"
+			sudo $LDAPTOOLS/test_rmuser.sh $loginid "$fullname" $app
+		fi
+	done
+
+	echo "deleting $loginid from ntcss"
+	sudo $LDAPTOOLS/test_rmuser.sh $loginid "$fullname" ntcss
+
+else
+	echo "LDAP Tools not found!"
+	exit
+fi
+

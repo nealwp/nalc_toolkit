@@ -1,0 +1,25 @@
+#!/bin/bash
+# checks if the interface is running
+
+intfcjob=$(ps -eo cmd | grep -c '^/h/OIMABT/bin/intfc_export')
+intfcpid=$(ps -C intfc_export -o pid= | sed 's/ //g')
+
+if [ "$intfcjob" -ne 0 ]; then
+	if [ "$1" == "status" ]; then
+		echo "OIMA Interface is running. PID: $intfcpid"
+		intfc_on=true
+	elif [ "$1" == "start" ] && [ "$intfc_on" = true ]; then
+		echo "OIMA Interface is already running. PID: $intfcpid"
+	fi
+else
+	if [ "$1" == "status" ]; then
+		echo "OIMA Interface is down!"
+		intfc_on=false
+	elif [ "$1" == "start" ] && [ "$intfc_on" = false ]; then
+	    dttm=$(date +%y%m%d.%H%M%S)
+   		loginid=ntcssii000
+    	cat ~/.val | sudo -S echo -n "" &> /dev/null
+    	sudo su - imabtusr -c /h/NTCSSS/applications/data/install/prelaunch $dttm$login NALCOMIS /h/OIMABT/bin/intfc_export.scr
+	fi
+fi
+

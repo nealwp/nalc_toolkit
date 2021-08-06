@@ -1,0 +1,8 @@
+#!/bin/bash
+# print list of available commands
+
+. /h/USERS/$USER/toolkit/etc/tk.config
+
+echo ""
+ls $BINDIR -ILDAP_TOOLS
+echo ""

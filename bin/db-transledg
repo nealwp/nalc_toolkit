@@ -1,0 +1,26 @@
+#!/bin/bash
+# queries the transledger for a niin/ddsn/mcn 
+
+sqlfile="/h/USERS/$USER/toolkit/sql/db-transledg.sql"
+
+ARGS=2
+
+if [ $# -ne "$ARGS" ] || [ ${#2} -gt 9 ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: db-transledg ddsn <ddsn>"
+	echo "       db-transledg mcn <mcn>"
+	echo "       db-transledg niin <niin>"
+	exit
+fi
+
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+	txt="!VAR$i!"
+	sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount

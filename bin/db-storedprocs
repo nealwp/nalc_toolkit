@@ -1,0 +1,27 @@
+#!/bin/bash
+# show store procedures for name/partial name
+
+sqlfile="/h/USERS/$USER/toolkit/sql/db-storedprocs.sql"
+
+ARGS=1
+
+if [ $# -gt "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: db-storedprocs <name/partial name>"
+	exit
+fi
+
+
+sqltxt=$(cat $sqlfile)
+if [ $# -eq 0 ]; then
+	txt="!VAR1!"
+	sqltxt=${sqltxt//$txt/}
+else
+	for (( i=1; i<=$ARGS; i++ ))
+	do
+		txt="!VAR$i!"
+		sqltxt=${sqltxt//$txt/$1}
+	done
+fi
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead

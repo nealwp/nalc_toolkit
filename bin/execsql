@@ -1,0 +1,18 @@
+#!/bin/bash
+# executes a .sql file in isql (old)
+               
+ 
+. ~/toolkit/etc/tk.config
+
+tput setaf 7
+
+strsql="$1"
+strsql+=$'\ngo'
+sudo -i -u sybase bash << DBLOGIN
+isql -Ussabtusr '-P`cat /opt/sybase/pd`' -Dp2db -w3000 << RUNSQL
+$strsql
+RUNSQL
+DBLOGIN
+
+tput sgr 0
+

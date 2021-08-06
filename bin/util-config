@@ -1,0 +1,261 @@
+#!/bin/bash
+# manage ToolKit configuration settings
+
+hst="/h/USERS/$USER/toolkit/etc/tk.hosts"
+config="/h/USERS/$USER/toolkit/etc/tk.config"
+
+. $config
+. $hst
+
+get-hosts() {
+
+	i=1
+
+	while read -r line
+	do
+		site=`echo $line | cut -d \= -f 1`
+		fqdn=`echo $line | cut -d \= -f 2 | sed 's/"//g'`
+		echo "$i) $site: $fqdn"
+		i=$(( $i + 1 ))
+	done < $hst
+
+}
+
+get-configs() {
+
+	while read -r line
+	do
+		field=$(echo ${line:11} | cut -d \= -f 1)
+		value=$(echo ${line:11} | cut -d \= -f 2 | sed 's/"//g')
+		echo "   $field: $value"
+	done < $config
+
+}
+
+edit-host() {
+	
+	local cmd=$1	
+
+	echo -n " >>> Host #: "	
+	read option
+
+	echo ""
+	echo -n " Name: "
+	sed "${option}q;d" $hst | cut -d \= -f 1
+	echo -n " FDQN: "
+	sed "${option}q;d" $hst | cut -d \= -f 2 | sed 's/"//g'
+	echo ""
+	
+	echo -n " Name: "
+	read newname
+	echo -n " FQDN: "
+	read newfqdn
+	
+	chmod 600 $hst
+	sed -i "${option}s/.*/$newname=\"$newfqdn\"/" $hst
+	chmod 400 $hst
+	
+	msg=" Host file updated!"
+	
+	if [ "$cmd" -eq 0 ]; then
+		main-menu "$msg"
+	else
+		echo "$msg"
+	fi
+}	
+
+add-host() {
+
+	local cmd=$1
+
+	echo -n " Name: "
+	read newname
+	echo -n " FQDN: "
+	read newfqdn
+	
+	chmod 600 $hst
+	echo "$newname=\"$newfqdn\"" >> $hst
+	chmod 400 $hst
+	
+	msg=" $newname added to hosts file!"
+
+	if [ "$cmd" -eq 0 ]; then	
+		main-menu "$msg"
+	else
+		echo "$msg"
+	fi
+}
+
+delete-host() {
+
+	local cmd=$1
+	
+	echo -n " >>> Delete Host #: "
+	read option
+	echo -n " Are you sure you want to delete? (y/n): "
+	read input
+	
+	if [ "$input" == "y" ]; then
+		chmod 600 $hst 
+		sed -i "${option}d" $hst
+		chmod 400 $hst
+	fi	
+	
+	msg=" Host deleted!"		
+
+	if [ "$cmd" -eq 0 ]; then
+		main-menu "$msg"
+	else
+		echo "$msg"
+	fi
+}
+
+
+function host-menu {
+
+	clear
+
+	if [ "$#" -gt 0 ]; then 
+		message="$1"
+	else
+		message=""
+	fi
+
+	quit=0
+	hostnames=`get-hosts`
+
+	local menutxt=(
+ ""
+ " *********************************"
+ "      TOOLKIT HOSTS       "
+ " *********************************"
+ " Hosts:"
+ ""
+ "$hostnames "
+"" 
+" Option                      Value"
+ "=================================="
+ " "            			
+ " a) Add a Host "
+ " e) Edit a Host "
+ " d) Delete a Host "
+ " q) Quit "
+ ""
+	)
+	printf "%s\n" "${menutxt[@]}"	
+	echo "$message"
+	echo -n " >>> Option: "
+	read option 
+
+	case $option in
+
+		a)
+		add-host 0
+		;;
+	
+		e)
+		edit-host 0
+		;;
+
+		d)
+		delete-host 0
+		;;
+
+		q)
+		clear
+		quit=1
+		;;
+	
+		*)
+		msg=" Invalid input."
+		;;
+	esac
+	#clear
+
+	if [ "$quit" -eq 1 ]; then
+		exit
+	else
+		main-menu
+	fi
+}
+
+
+
+function usage {
+
+	local helptext=(
+""
+" Toolkit Configuration Utility"
+" Usage: tkcfg [-hs] <debug> "
+" Running tkcfg with no option specified will launch interactive menu."
+""
+" Command:"
+"    debug         Turns debug mode on or off."
+""
+" Options:"
+"    --help, -h          Print help."
+"    --settings, -s      Print current settings."
+"" 	
+	)
+	printf "%s\n" "${helptext[@]}"
+}
+
+function main() {
+
+	local configurations=$(get-configs)
+	local menutext=(
+""
+"=========================================================="
+" Toolkit Configuration"
+"=========================================================="
+""
+"$configurations"
+""
+)		
+
+	printf "%s\n" "${menutext[@]}"
+}
+
+if [ "$#" -gt 0 ]; then
+	while (( $# ))
+	do
+		case "$1" in
+
+		edit)
+		echo ""
+		get-hosts
+		echo ""
+		edit-host 1
+		exit
+		;;			
+	
+		add)
+		add-host 1
+		exit
+		;;
+		
+		delete)
+		echo ""
+		get-hosts
+		echo ""
+		delete-host 1
+		exit
+		;;
+		
+		--print | -p)
+		echo ""
+		get-hosts
+		echo ""
+		exit
+		;;
+
+		*)
+		echo ">>> Option not recognized."
+		usage
+		exit
+		;;
+		esac
+	done
+else	
+	main	
+fi

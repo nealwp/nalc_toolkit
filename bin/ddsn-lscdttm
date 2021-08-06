@@ -1,0 +1,21 @@
+#!/bin/bash
+# updates the lsc_dttm for a ddsn
+sqlfile="/h/USERS/$USER/toolkit/sql/ddsn-lscdttm.sql"
+
+ARGS=3
+
+if [ "$#" -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: ddsn-lscdttm <ddsn> <mm/dd/yyyy> <hh:mmAM/PM>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket

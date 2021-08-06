@@ -1,0 +1,23 @@
+#!/bin/bash
+# deletes an MCN from all MAF tables
+
+sqlfile="/h/USERS/$USER/toolkit/sql/maf-kill.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: maf-kill <mcn>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+	txt="!VAR$i!"
+	sqltxt=${sqltxt//$txt/$1}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket

@@ -1,0 +1,24 @@
+#!/bin/bash
+# swaps the remove/install block for a maf in history
+
+sqlfile="/h/USERS/$USER/toolkit/sql/maf-dm21swap.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: maf-dm21swap <ddsn>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket
+

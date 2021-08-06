@@ -1,0 +1,24 @@
+#!/bin/bash
+# update a cancelled ddsn to REFER, cnx_qty 0 
+
+sqlfile="/h/USERS/$USER/toolkit/sql/ddsn-uncanx.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: ddsn-uncanx <ddsn>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket
+

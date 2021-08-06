@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cat ~/.val | sudo -S echo -n "" &> /dev/null
+
+tput setaf 7 
+sudo su - sybase -c './syb_utils/menu'
+tput sgr 0

@@ -1,0 +1,23 @@
+#!/bin/bash
+# moves a maf from history to active
+
+sqlfile="/h/USERS/$USER/toolkit/sql/maf-activate.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ] || [ ${#1} -ne 7 ] ; then
+	echo "Error. Invalid argument."
+	echo "Usage: maf-activate <mcn>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+	txt="!VAR$i!"
+	sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket

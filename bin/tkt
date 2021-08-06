@@ -1,0 +1,31 @@
+#!/bin/bash
+# displays ticket for the last command run
+
+. ~/toolkit/etc/tk.config
+
+tput sgr 0
+	
+eqlln=`printf "=%.0s" {1..20}`
+ticket_txt=$(cat ~/toolkit/etc/tk.ticket)
+
+if [ "$1" == "clear" ]; then
+	echo -n "" > ~/toolkit/etc/tk.ticket
+	exit
+fi
+    
+printf "%s %s -- " "${FNAME}" ${LNAME}
+date +'%m.%d.%Y'
+printf "Email: %s\n" ${EMAIL}
+printf "Phone: %s\n" ${PHONE}
+printf "Cell: %s\n" ${CELL} 
+printf "%s\n" "${ORG}"
+echo $eqlln
+
+if [ "$1" == "blank" ]; then
+	printf "\n\n\n"
+else
+	printf "\n%s\n\n" "$ticket_txt"
+fi
+
+echo $eqlln
+

@@ -1,0 +1,25 @@
+#!/bin/bash
+# sets the maf init_dttm to the earliest maint_act_dttm
+sqlfile="/h/USERS/$USER/toolkit/sql/maf-fixinit.sql"
+
+ARGS=1
+
+if [ "$#" -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: maf-fixinit <mcn>"
+	exit
+elif [ ${#1} -ne 7 ]; then
+	echo "Error. Invalid argument!"
+	echo "MCN must be 7 characters."
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket

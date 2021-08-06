@@ -1,0 +1,5 @@
+#!/bin/bash
+# takes an incremental backup of the database
+cat ~/.val | sudo -S echo ""  
+
+sudo su sybase -c '/usr/bin/csh -c "cd /h/NTCSSU/bin/syb_utils;./tran_logs"'

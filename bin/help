@@ -1,0 +1,591 @@
+#!/bin/bash
+# prints out commands and descriptions for Toolkit
+
+#. ~/toolkit/etc/tk.hosts
+
+#get-hosts() {
+#
+#        i=1
+#
+#        while read -r line
+#        do
+#                site=`echo $line | cut -d \= -f 1` 
+#                fqdn=`echo $line | cut -d \= -f 2 | sed 's/"//g'`
+#                declare "$site=$site"
+#		echo "$i) $site: $fqdn"
+#                i=$(( $i + 1 ))
+#        done < $hst
+#
+#}
+#
+#
+#bindir=$(find ~/toolkit/bin/* -maxdepth 0 -type f)
+#
+#echo ""
+#
+#for file in $bindir
+#do
+#	helptext=$( echo -n `sed '2q;d' $file` )
+#	cmdname=$(basename "$file") 
+#	printf "  %-30s %10s \n" $cmdname "$helptext"
+#done
+#
+#echo ""
+
+cmd-edit() {
+
+	local text=(
+""
+""
+""
+) 
+	printf "%s\n" "${text[@]}"
+}
+
+cmd-list() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+db-columns() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+db-incrdump() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+db-tables() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-activate() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-compl() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-createiou() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-create-suffix() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-fixmcn() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-ioukill() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-kill() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-lscdttm() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-refer() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-scan() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-status() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ddsn-uncanx() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+execsql() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+execsqld() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+goto() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+
+
+hist() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+isql() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+jdate() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+ldap-rmuser() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-activate() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-bunofix() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-createdifm() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-deactivate() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-dm09swap() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-epartno() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-eserno() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-fixinit() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-gserno() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-kickback() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-kill() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+maf-scan() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+niin() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+niin-dbag75() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+puk() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+puk-add() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+puk-update() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+sys-cm() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+sys-hcn() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+sys-intfc() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+sys-ntdomain() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+sys-oomadb() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+sys-varlog() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+test() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+tkt() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+util-config() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+util-update() {
+
+    local text=(
+""
+""
+""
+)
+    printf "%s\n" "${text[@]}"
+}
+
+tput sgr 0
+
+if [ "$#" -eq 0 ]; then
+	text=(
+"
+Usage: help [COMMAND]
+
+Display help information for COMMAND within the OIMA Toolkit. Run
+\"cmd-list\" to get a list of available commands.
+
+With no COMMAND, displays this message.
+
+Examples:
+  help ddsn-kill  Shows help for command \"ddsn-kill\".
+  help            Displays this message.
+"
+)
+
+	printf "%s\n" "${text[@]}"
+	exit
+else
+	$1
+fi
+
+tput setaf 3

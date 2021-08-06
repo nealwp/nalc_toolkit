@@ -1,0 +1,24 @@
+#!/bin/bash
+# runs a niin/inventory/fgc/cagepartno query in p2db
+
+sqlfile="/h/USERS/$USER/toolkit/sql/niin-difm.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+        echo "Error. Invalid argument."
+        echo "Usage: niin-difm <niin>"
+        exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount 
+

@@ -1,0 +1,23 @@
+#!/bin/bash
+# deletes a dr06 record for a ddsn and updates the so_iou_qty 
+
+sqlfile="/h/USERS/$USER/toolkit/sql/ddsn-ioukill.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: ddsn-ioukill <ddsn>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+	txt="!VAR$i!"
+	sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead

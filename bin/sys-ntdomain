@@ -1,0 +1,44 @@
+#!/bin/sh
+# changes the NT Domain and restarts ntcss to kick all users
+
+cat ~/.val | sudo -S echo -n "" &> /dev/null
+
+txt=`cat ~/.val`
+
+ntdomain=`sudo ldapsearch -LLL -x -H ldaps://127.0.0.1 -b"ou=SYSCONF_TABLE,o=optimized" -D"cn=admin,o=optimized" -y/h/NTCSSS/ldap/runtime/SysInfoFile "(sysconfData=NTDOMAIN)" | grep sysconfAttribute | cut -d" " -f2`
+
+echo $ntdomain
+
+if [ "$ntdomain" != "JACKBONES" ]
+then
+	echo $ntdomain > ~/toolkit/etc/.tmp-ntdomain
+	val="JACKBONES"
+	echo "we are jackbones-ing the nt domain..."
+	read -p "Continue? (yes/no): "
+	if [ "$REPLY" != "yes" ]; then
+		exit
+	fi
+else
+	val=`cat ~/toolkit/etc/.tmp-ntdomain`
+	echo "SysConfig is currently jackbones-ed..."
+	read -p "Reset to ${val}? (yes/no): "
+	if [ "$REPLY" != "yes" ]; then
+		exit
+	fi
+	echo "setting NT Domain back to initial value..."
+fi
+
+sudo ldapmodify -x -H ldaps://`hostname | sed 's,nalc,rsupmast,g'` -D"cn=admin,o=optimized" -y/h/NTCSSS/ldap/runtime/SysInfoFile <<EOF
+dn: sysconfData=NTDOMAIN,ou=SYSCONF_TABLE,o=optimized
+changetype: modify
+replace: sysconfAttribute
+sysconfAttribute: ${val}
+EOF
+
+if [ "$val" == "JACKBONES" ]; then 
+	ssh -W ~/.val -qt rsupmast "echo "${txt}" > ~/.val"
+	ssh -W ~/.val -qt rsupmast "cat ~/.val | sudo -S service ntcss restart > /dev/null" &> /dev/null
+fi
+
+
+

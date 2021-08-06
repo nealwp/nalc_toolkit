@@ -1,0 +1,40 @@
+#!/bin/bash
+# launches isql in p2db
+
+while getopts "f:w" opt; do
+	case "${opt}" in
+		f)
+			filename=${OPTARG}
+			cat $filename > /tmp/tmpsqltxt.sql
+			sudo chown root:root /tmp/tmpsqltxt.sql
+			sudo chmod 777 /tmp/tmpsqltxt.sql
+			sudo su - sybase -c 'isql -Ussabtusr -P`cat /opt/sybase/pd` -Dp2db -i/tmp/tmpsqltxt.sql;'
+			sudo rm -f /tmp/tmpsqltxt.sql
+			exit
+			;;
+
+		w)
+			vim /tmp/tmpsqltxt.sql
+			tput sgr 0
+			cat /tmp/tmpsqltxt.sql
+			tput setaf 3
+			if [ -f /tmp/tmpsqltxt.sql ]; then
+				read -r -p "Are you sure you want to execute this in isql? (y/n): "
+					if [ "$REPLY" == "y" ] || [ "$REPLY" == "Y" ]; then
+						echo ""
+						/opt/sybase/OCS-15_0/bin/isql -Ussabtusr -P`cat /opt/sybase/pd` -SNTCSS_NALC -Dp2db -w5000 -s"|" -i/tmp/tmpsqltxt.sql -X 
+						rm -f /tmp/tmpsqltxt.sql
+						exit
+					else
+						exit
+					fi
+			else
+				exit
+			fi
+			;;
+						
+	esac
+done
+
+echo "logged into p2db!"
+/opt/sybase/OCS-15_0/bin/isql -Ussabtusr -P`cat /opt/sybase/pd` -SNTCSS_NALC -Dp2db -n -e -w5000 -Evim -s"|" --history p1024 -X

@@ -1,0 +1,24 @@
+#!/bin/bash
+# update the status code, ri from, and status date on an active requistion 
+
+sqlfile="/h/USERS/$USER/toolkit/sql/ddsn-status.sql"
+
+ARGS=4
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: ddsn-status <ddsn> <sts_cd> <ri_from> <sts_date>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket
+

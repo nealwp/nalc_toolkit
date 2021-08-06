@@ -1,0 +1,24 @@
+#!/bin/bash
+# removes the "-" from buno's on a maf that's awaiting induction
+
+sqlfile="/h/USERS/$USER/toolkit/sql/maf-bunofix.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: maf-bunofix <ddsn>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<="$ARGS"; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead ticket
+

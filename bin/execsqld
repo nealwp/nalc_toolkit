@@ -1,0 +1,27 @@
+#!/bin/bash
+# executes an sql string in isql (updated)
+
+. ~/toolkit/etc/tk.config
+
+strsql="$1"
+
+if [ "$2" = "nocount" ]; then
+	printf "set nocount on\ngo\n" > /tmp/.tmptksqlin.sql
+fi
+
+echo "$strsql" >> /tmp/.tmptksqlin.sql
+echo ""
+
+if [ "$3" = "nohead" ]; then
+	if [ "$4" = "ticket" ]; then
+		/opt/sybase/OCS-15_0/bin/isql -Ussabtusr -P`cat /opt/sybase/pd` -SNTCSS_NALC -Dp2db -b -w5000 -i/tmp/.tmptksqlin.sql -X >> ~/toolkit/etc/tk.ticket
+	else
+		/opt/sybase/OCS-15_0/bin/isql -Ussabtusr -P`cat /opt/sybase/pd` -SNTCSS_NALC -Dp2db -b -w5000 -i/tmp/.tmptksqlin.sql -X
+	fi
+else
+	/opt/sybase/OCS-15_0/bin/isql -Ussabtusr -P`cat /opt/sybase/pd` -SNTCSS_NALC -Dp2db -s"|" -w5000 -i/tmp/.tmptksqlin.sql -X
+fi
+
+rm /tmp/.tmptksqlin.sql
+
+

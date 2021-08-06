@@ -1,0 +1,34 @@
+#!/bin/bash
+# edits an existing Toolkit file
+
+sqlpath="/h/USERS/$USER/toolkit/sql"
+binpath="/h/USERS/$USER/toolkit/bin"
+etcpath="/h/USERS/$USER/toolkit/etc"
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+        echo "Error. Invalid argument."
+        echo "Usage: util-edit <filename>"
+        exit
+fi
+
+filename="$1"
+
+if [[ $filename == *".sql" ]]; then
+	if [ -f "$sqlpath/$filename" ]; then
+		vim "$sqlpath/$filename"
+	else
+		echo "Invalid filepath: $sqlpath/$filename"
+	fi
+elif [[ $filename == "tk."* ]]; then
+	if [ -f "$etcpath/$filename" ]; then
+        vim "$etcpath/$filename"
+    else
+        echo "Invalid filepath: $etcpath/$filename"
+    fi
+elif [ -f "$binpath/$filename" ]; then
+        vim "$binpath/$filename"
+    else
+        echo "Invalid filepath: $binpath/$filename"
+fi
+

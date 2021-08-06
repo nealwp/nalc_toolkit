@@ -1,0 +1,12 @@
+#!/bin/bash
+# converts a Julian Date to a calendar date and vice versa
+
+if [ "$#" -gt 0 ]; then
+	if [ "${#1}" -lt 5 ]; then
+		date -d "2021-01-01 +$1 days -1 day" "+%m/%d"
+	else
+		date -d "$1" +"%y%j"
+	fi
+else
+	date +"%y%j"
+fi

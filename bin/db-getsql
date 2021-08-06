@@ -1,0 +1,23 @@
+#!/bin/bash
+# show sql for a trigger or stored procedure
+
+sqlfile="/h/USERS/$USER/toolkit/sql/db-getsql.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	echo "Error. Invalid argument."
+	echo "Usage: db-getsql <trigger|stored procedure>"
+	exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+	txt="!VAR$i!"
+	sqltxt=${sqltxt//$txt/$1}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount nohead

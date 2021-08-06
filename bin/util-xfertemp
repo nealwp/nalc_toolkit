@@ -1,0 +1,63 @@
+#!/bin/bash
+# move a file from /tmp/ to pwd and chmod/chown it
+
+. /h/USERS/$USER/toolkit/etc/tk.config
+
+if [ $# -gt 0 ]; then
+
+	filepath="/tmp/$1"
+	currentdir=$(pwd)
+
+	cat ~/.val | sudo -S echo "" &> /dev/null
+
+	if [ "$1" == "list" ]; then
+	
+	echo ""
+    echo "  /tmp/"
+    echo "  ---------------------"
+    ls -1p /tmp/ | grep -v / | sed 's/^/    /g'
+    echo ""
+	exit
+
+	elif [ -f $filepath ]; then
+
+		sudo chmod 666 $filepath
+		sudo chown $USER:$(id -g -n) $filepath
+		mv $filepath $currentdir
+	else
+		echo "$filepath not found!"
+	fi
+else
+	text=(
+"
+Usage: util-xfertemp [FILENAME]
+       util-xfertemp list
+
+Moves a file from the /tmp/ directory into the current user's home directory and chown's
+it so the current user can open/modify it. This command is primarily intended for getting
+an output file from an isql query. For instance, in isql, a user may run the following:
+
+    select * from da01_organization
+    go > /tmp/da01.txt
+
+This is will write the output to the /tmp/ directory. After exiting isql, the user can run
+the following from the tk command line:
+
+    util-xfertemp da01.txt
+
+and the file will be moved to the user's home directory and chown'ed to the current user and group.
+
+With no arguments provided, this message is displayed.
+
+Examples:
+    util-xfertemp output.sql    Moves the file output.sql from /tmp/ into the user's home and chown it
+                                to the current user and group.
+    util-xfertemp list          Prints a list of available files to xfer from the /tmp/ directory.
+    util-xfertemp               Displays this message.
+"
+""
+)
+    printf "%s\n" "${text[@]}"
+
+fi
+	

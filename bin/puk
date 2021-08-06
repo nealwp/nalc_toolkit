@@ -1,0 +1,29 @@
+#!/bin/bash
+# runs a puk query in p2db
+
+sqlfile="/h/USERS/$USER/toolkit/sql/puk.sql"
+
+ARGS=1
+
+if [ $# -eq 2 ]; then
+	ARGS=2
+fi
+
+if [ $# -ne "$ARGS" ]; then
+        echo "Error. Invalid argument."
+        echo "Usage: puk <pkup id>"
+		echo "       puk <pkup id> <niin>"
+        exit
+fi
+
+sqltxt=$(cat $sqlfile)
+
+for (( i=1; i<=$ARGS; i++ ))
+do
+        txt="!VAR$i!"
+        sqltxt=${sqltxt//$txt/${!i}}
+done
+
+
+~/toolkit/bin/execsqld "$sqltxt" nocount 
+

@@ -1,0 +1,37 @@
+#!/bin/bash
+# checks the OOMA_db version in p2db 
+
+. /h/USERS/$USER/toolkit/etc/tk.config
+
+sqlfile="$SQLDIR/sys-oomadb.sql"
+
+ARGS=1
+
+if [ $# -ne "$ARGS" ]; then
+	$BINDIR/help "sys-oomadb"
+	exit
+fi
+
+if [ "$1" == "get" ]; then
+
+	sqltxt=$(cat $sqlfile)
+
+	for (( i=1; i<=$ARGS; i++ ))
+	do
+		txt="!VAR$i!"
+		sqltxt=${sqltxt//$txt/$1}
+	done
+
+	$BINDIR/execsqld "$sqltxt" nocount nohead &> /dev/null
+
+	ooma_version=$(cat /tmp/.tmptksql.var)
+
+	if [ "${#ooma_version}" -gt 90 ]; then
+		echo "OOMA Local DB Version: ERROR"
+	else
+		printf "OOMA Local DB Version: %s\n" "$ooma_version"
+	fi
+
+	rm /tmp/.tmptksql.var &> /dev/null
+
+fi
